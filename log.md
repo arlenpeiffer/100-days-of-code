@@ -1,5 +1,22 @@
 # 100 Days Of Code - Log
 
+### Day 2
+**Saturday, October 19, 2019**
+
+Completed the rest of Section 17  of the Complete React Developer Course! Got some good practice working with media queries/breakpoints, creating & importing partial files/using selectors to target specific elements or decendants of specific elements, and setting up variables for reusing colors, font sizes/styles, and margin/padding amounts.
+
+Also had a good refresher on the difference between inline and inline-block..
+
+**display: inline**
+- **cannot** set width and height of an element
+- top & bottom margins are **not** respected
+
+**display: inline-block**
+- can set width and height of an element
+- top & bottom margins are respected
+
+Deployed version of the Expensify app with added styles is up at https://e-x-pensify.herokuapp.com/
+
 ### Day 1
 **Friday, October 18, 2019**
 
