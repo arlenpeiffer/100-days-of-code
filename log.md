@@ -1,5 +1,26 @@
 # 100 Days Of Code - Log
 
+### Day 5
+**Tuesday, October 22, 2019**
+
+Ladies and gentlemen, he's finally done it.. he finally reached the end of The Complete React Developer Course 🎉
+
+The last few lessons in the course focused on the useReducer Hook, Context and the useContext Hook, Fragments, and creating custom React Hooks. Here are a few take aways..
+
+``useReducer``
+- awfully similar to the idea of reducers in Redux 🤔
+- takes (2) arguments ➡️ a reducer function and the initial state
+- returns an array containing (2) things ➡️ state and a dispatch function
+- ultimately allows us to remove complex state logic from our component and store it in a separate function, making our component easier to manage and making the reducer easier to reuse
+
+``useContext``
+- takes (1) argument ➡️ a context object
+- returns ➡️ the value being shared via Context (ie. whatever was passed as the value prop to Provider)
+- you can destructure just the things you need from the return value of useContext like so: ``const { notes } = useContext(NotesContext);``
+
+Also, got a little refresher on event listeners during the lesson on creating custom hooks.. ``document.addEventListener()`` and ``document.removeEventListener()`` both take (2) arguments ➡️ the event to listen for and the function to run when the event occurs. I gotta go back and spend a little time playing with event listeners again, as well as explore what other fun things can be done with event targets like document and window.
+
+
 ### Day 4
 **Monday, October 21, 2019**
 
