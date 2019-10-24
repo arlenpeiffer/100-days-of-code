@@ -1,5 +1,33 @@
 # 100 Days Of Code - Log
 
+### Day 6
+**Wednesday, October 23, 2019**
+
+Today was a really fun day of exploring. I got to spend pretty much the entire day working on coding, and I feel really proud of where I'm at today. There were some definite moments throughout the day that I noticed a new level of comfort — an almost second nature kind of thing — with certain tasks (using nvm, setting up new repos on github and sourcetree) and a collectedness that I don't always feel when running into issues or error messages. Definitely feeling back on track a little more after today.
+
+Here are the day's takeaways..
+
+- Started out the day by doing some reading/exploring about React Native (been thinking about building my next project with that) and through that exploration found Expo, which seems really cool. Spent a good part of the day playing around with the Expo CLI/DevTools and Expo Client for iOS. Ran into lots of new errors I've never seen before, but worked through all of them and everything seems to be up and running.
+    - https://expo.io
+    - https://github.com/expo/expo
+    - https://github.com/expo/expo-cli
+    - https://blog.expo.io/expo-cli-2-0-released-a7a9c250e99c
+    
+- Learned about using absolute paths as opposed to relative paths for imports (ex: ``import Header from 'components/Header'`` instead of ``import Header from '../../components/Header``) using babel-plugin-module-resolver.
+    - https://github.com/tleunen/babel-plugin-module-resolver
+
+- Brushed up on some terminal commands for nvm and learned how to set the default version of node by using ``nvm alias default 12.13.0``.
+
+- Did a short React Native/Expo tutorial where we built a little Netflix clone. Apparently some breaking changes with react-navigation (a package used in the tutorial) have occurred since it was written, so got to do some doc reading/problem solving to get everything working as expected.
+    - https://codeburst.io/getting-started-with-expo-react-native-and-styled-components-using-a-netflix-clone-example-652c7cb2a794
+    
+- Lastly, found out installing Xcode takes a really long time (but that the iOS simulator built into it is pretty fun) 📱
+
+Oh, and one last thing.. found out I got a phone interview with 8th Light! 😄
+
+Quite a day. Excited to keep at it. See ya tomorrow!
+
+
 ### Day 5
 **Tuesday, October 22, 2019**
 
