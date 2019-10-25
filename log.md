@@ -1,5 +1,50 @@
 # 100 Days Of Code - Log
 
+### Day 7
+**Thursday, October 24, 2019**
+
+Started setting up the basic file structure and navigation for Restock app. Got a little sidetracked by wanting to use babel-plugin-module-resolver for absolute pathnames in my imports, so didn't end up getting as far as I wanted to with the set up process. Did eventually figure out the absolute pathname thing (turns out ``Shift + R`` clears the cache and forces a reload of the babel.config.js file in Expo) but was definitely a little fried by the time I got there.
+
+Here are some notes I took on setting up an Expo project with React Navigation:
+
+**Initializing an Expo project**
+- From the directory where you’d like to create a project run
+	``expo init project-name`` or simply ``expo init``
+- Choose a template/workflow:
+    * blank — a minimal app as clean as an empty canvas
+    * blank (TypeScript) — same as blank but with TypeScript configuration
+    * tabs — several example screens and tabs using react-navigation
+    * minimal — bare and minimal, just the essentials to get you started
+    * minimal (TypeScript) — same as minimal but with TypeScript configuration
+- Enter a name (the name of your app visible on the home screen) and a slug (a url friendly name for your app — this will also be the name of the project folder if none was specified when running ``expo init``)
+- Choose whether or not to use yarn to install dependencies
+
+**Starting the project**
+- From the project directory run either ``yarn start`` or ``expo start``
+
+**Adding react-naviagation**
+- From the project directory run ``expo install react-navigation react-native-gesture-handler react-native-reanimated react-native-screens``
+
+**Setting up react-navigation**
+
+React Navigation's stack navigator provides a way for your app to transition between screens and manage navigation history. To use React Navigation’s stack navigator:
+- ``yarn add react-navigation-stack``
+- ``import { createStackNavigator } from ‘react-navigation-stack’``
+- ``import { createAppContainer } from ‘react-navigation’``
+
+**createStackNaviagtor** is a function that returns a React component. It takes a route configuration object and, optionally, an options object.
+
+**createAppContainer** is a function that returns a React component to take as a parameter the React component created by the createStackNavigator, and can be directly exported from App.js to be used as our App's root component. *(???)*
+
+And lasty...
+
+A question from the day...
+
+**Q:** Do components in React Native have to be class components?
+
+Find out next time on... #100DaysOfCode 😜
+
+
 ### Day 6
 **Wednesday, October 23, 2019**
 
