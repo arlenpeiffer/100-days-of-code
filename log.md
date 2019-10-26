@@ -1,5 +1,24 @@
 # 100 Days Of Code - Log
 
+### Day 8
+**Friday, October 25, 2019**
+
+Spent today playing around with Restock some more, mostly just continuing from where I left off yesterday. Sorted out what actually needs to be included for the babel-plugin-module-resolver to work (seems like just an alias prop containing an object with the paths you'd like to create aliases for), so feeling pretty comfortable/confident with that now. Got to use ``Shift + R`` a fair amount while getting all my new paths set up 😉
+
+Also got my two views/screens set up (Form & Checklist) and basic navigation between the two is working. Currently that's being done by using the navigate function on the navigation prop in React Navigate. Lots of that word today. A note on the navigation prop..
+
+- Each ``screen`` component in your app is provided with the ``navigation`` prop automatically. The prop contains various convenience functions that dispatch navigation actions on the route's router. https://reactnavigation.org/docs/en/navigation-prop.html
+
+Beyond that just started setting up a Section component to be used inside of Form. Each Section will manage it's own expanded/collapsed state, which in turn will decide whether any of the items belonging to that section are rendered. Got the basics working but excited to keep exploring.
+
+Next steps (or maybe not next, but steps to take at some point soon):
+- add tests to the project
+- try adding animations for expanding/collapsing menus
+- work on taking more breaks
+
+Alright, see ya tomorrow!
+
+
 ### Day 7
 **Thursday, October 24, 2019**
 
