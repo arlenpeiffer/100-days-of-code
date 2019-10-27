@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+### Day 9
+**Saturday, October 26, 2019**
+
+Spent a few hours this morning playing around with Restock and trying to think through the best way to handle sharing state between the Form and Checklist screens. Looking into params in React Navigation and Context in React. Thinking it might be Context, but we'll see what tomorrow brings.
+
+Also, realized today that I could for sure spend some more time committing to memory the built-in Array methods and how they work/what they return.
+
+Links:
+- [Passing parameters to routes · React Navigation](https://reactnavigation.org/docs/en/params.html)
+- [Context – React](https://reactjs.org/docs/context.html)
+- [Array - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+
 ### Day 8
 **Friday, October 25, 2019**
 
