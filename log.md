@@ -1,5 +1,22 @@
 # 100 Days Of Code - Log
 
+### Day 10
+**Sunday, October 27, 2019**
+
+Had the day off today and got to spend most of it coding. Feel like I covered a lot of ground.
+
+This morning I worked on getting Context all set up for the Restock app. Renamed some things for clarity (AppContext becomes OrderContext, count gets swapped out for amount) and replaced instances of Consumer with useContext calls. I think the changes made things much cleaner and all seems to be working pretty well.
+
+After that I got to learn about React Native's ScrollView, how styling a ScrollView with styled-components requires a slightly different syntax, and how flex in React Native differs from flex in the browser. Links below.
+
+Lastly, spent a couple hours working on setting up and styling a Counter component that manages the current amount for each SectionItem. Was fun playing around with dynamic styling in styled-components 💅
+
+Here are a few links from the day:
+- [Taming React Native’s ScrollView with flex - Peter Piekarczyk - Medium](https://medium.com/@peterpme/taming-react-natives-scrollview-with-flex-144e6ff76c08)
+- [Layout Props · React Native](https://facebook.github.io/react-native/docs/layout-props.html#flex)
+- [wesbos/css-colours-sorted: CSS Colours Sorted By](https://github.com/wesbos/css-colours-sorted)
+
+
 ### Day 9
 **Saturday, October 26, 2019**
 
