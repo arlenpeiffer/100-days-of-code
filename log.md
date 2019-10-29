@@ -1,5 +1,14 @@
 # 100 Days Of Code - Log
 
+### Day 11
+**Monday, October 28, 2019**
+
+Didn't have a ton of time to work on things today but did get to play around with styled-compnents for an hour or so. Got the counter component looking/feeling a little better and was able to get rid of some unnecessary css.
+
+A few questions/thoughts from the day:
+- Getting used to the the fact that the default value for ``flex-direction`` in React Native is ``column`` and not ``row`` like it is for web stuff..
+- In React Native, do you have to set ``display: flex`` in order to use ``align-items``/``justify-content`` or can you just use them?
+
 ### Day 10
 **Sunday, October 27, 2019**
 
