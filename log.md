@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+### Day 12
+**Tuesday, October 29, 2019**
+
+Made a bunch of commits for the project today! Merged all of my changes from the last few days — completing my work on the section feature for now — and improved the function managing the app's global order state. (It now removes a key from the order object if the amount for an item is 0).
+
+Also merged a bunch of automated pull requests this morning for a handful of github repos with high severity security vulnerabilities. Was my first time merging pull requests that weren't just me merging a branch, so that felt cool.
+
+My interview for 8th Light is tomorrow, so spent a little time getting ready for that as well!
+
+**A useful link from the day:**
+- [Color Name & Hue – Colblindor](http://www.color-blindness.com/color-name-hue/) — *great tool for looking up the specific name of colors*
+
+
 ### Day 11
 **Monday, October 28, 2019**
 
