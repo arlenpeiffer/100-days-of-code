@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 13
+**Wednesday, October 30, 2019**
+
+Made a few commits today on Restock.. got the most basic version of the Checklist screen happening and rendering ChecklistItem components for each item in the order. After that explored some other options for data structure (seeing if might make more sense to store the order data as an array rather than an object, and also if it might be worth it to store items on a section object so that items can be organized by section/headers can be rendered on the Checklist screen for each group of items).
+
+Don't know why but this second part of the day felt really tough. Was one of those days where I felt like I didn't know anything about JavaScript, or like I'd never seen or heard of any of the built-in Object or Array methods. Starting to feel kinda under the weather so maybe it has something to do with that. 🤒
+
+Either way, better luck tomorrow
+
+Ciao!
+
+
 ### Day 12
 **Tuesday, October 29, 2019**
 
