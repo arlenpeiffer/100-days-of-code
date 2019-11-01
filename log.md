@@ -1,5 +1,34 @@
 # 100 Days Of Code - Log
 
+### Day 14
+**Thursday, October 31, 2019**
+
+Got to work on things for a couple hours after work today. Felt lots better than yesterday thank goodness.
+
+Made some structural changes to the order object in Restock. Ended up going with the idea of creating individual section keys that then contain an array of all of the items and amounts for that section/category. The function for updating the order object became much more complex when introducing the extra section key layer, but was a really good exercise for me. Here are the notes I took to help me visualize what I needed the function to do..
+
+```
+DOES SECTION KEY EXIST?
+-- YES: IS AMOUNT > 0?
+  -- YES: ADD ITEM KEY!
+  -- NO: IS THIS THE LAST ITEM IN THE SECTION?
+    -- YES: REMOVE SECTION KEY!
+    -- NO: REMOVE ITEM KEY!
+-- NO: ADD SECTION KEY!
+```
+
+A few other fun things I learned/solidified today:
+- Object dot notation ( `object.property` ) requires that property is a valid JavaScript identifier
+	- An **identifier** is a sequence of characters that identifies a variable, function, or property. In JavaScript, identifiers are case-sensitive and can contain Unicode letters, $, _, and digits (0-9), but may not start with a digit.
+- Object bracket notation ( `object[property]` ) does not require property to be a valid identifier — it can have any value, e.g. "1foo", "!bar!", or even " "
+- To remove the last letter of a string you can use `str.slice(0, -1)`
+
+Links:
+- [Objects](https://javascript.info/object)
+- [Property accessors - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors)
+- [Identifier - MDN Web Docs Glossary: Definitions of Web-related terms | MDN](https://developer.mozilla.org/en-US/docs/Glossary/identifier)
+- [String.prototype.slice() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice)
+
 ### Day 13
 **Wednesday, October 30, 2019**
 
