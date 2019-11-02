@@ -1,5 +1,23 @@
 # 100 Days Of Code - Log
 
+### Day 15
+**Friday, November 1, 2019**
+
+Oof. I feel so wiped from working on stuff all day. Seriously spent the whole day coding today. Made a lot of progress on the React Native project but also spent so many hours grappling with some silly things that hopefully will wind up sticking with me. Here's a little list of the day's accomplishments:
+
+- Wrapped up/commited refactoring work from yesterday having to do with the object restructure/section key stuff
+- Added ternary that swaps the section header icon when collapsed vs. expanded
+- Refactors and styles the Checklist screen (spent a couple hours really digging into styled-components stuff this morning)
+- And the big finale for the day was deciding to go in the other direction with the application global state (order) and change it from an object to an array, and to use useReducer/dispatch calls to manage changes instead of useState/setOrder. This was another good exercise but took me way too long. I wanna get better at figuring out how to break these things down faster and not feel like i'm stumbling through them for hours.
+
+And some take aways:
+
+- When using ``import * as types from './types'`` turns out you actually have to make sure to export the variables in types.js.. whoops!
+- Can anyone write nice looking reducer files or do they all just look crazy?
+- Don't forget, that property you're trying to access might be on the action object 🙃
+- It's seriously so rewarding figuring these problems out. Keep it up buddy.
+
+
 ### Day 14
 **Thursday, October 31, 2019**
 
