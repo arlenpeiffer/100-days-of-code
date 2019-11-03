@@ -1,5 +1,78 @@
 # 100 Days Of Code - Log
 
+### Day 16
+**Saturday, November 2, 2019**
+
+Got to mess around with things for a couple hours before and after work today. Spent most of that time working on a function that searches the global state (order) for a given section + item combination, and if found returns either item.amount or item.isChecked and uses that value for the component initial state. Went through a few iterations (which I'll paste below) and in the end decided to try setting it up as a custom hook (useInitialState).
+
+Outside of that (and also inside of that) spent a lot of time thinking about being precise with naming. Always a struggle but feel pretty good about where I ended up with everything.
+
+Alright here are a few versions of the function I worked on today..
+
+```
+v1 (SectionItem version)
+// not reusable at all, had to have different versions of the function for both components (SectionItem / ChecklistItem)
+
+const setInitialValue = (order, section, item) => {
+  let initialValue = 0;
+  order.some(s => {
+    if (s.name === section) {
+      s.items.some(i => {
+        if (i.name === item) {
+          initialValue = i.amount;
+        }
+      });
+    }
+  });
+  return initialValue;
+};
+
+
+v2
+// more reusable but requires a long list of arguments and has no default value
+
+const findInitialValue = (order, section, item, field) => {
+  let initialValue;
+  order.some(s => {
+    if (s.name === section) {
+      s.items.some(i => {
+        if (i.name === item) {
+          initialValue = i[field];
+        }
+      });
+    }
+  });
+  return initialValue;
+};
+
+
+v3 (Custom hook version)
+// still requires more arguments than I'd like but happier with the naming/clarity
+
+const useInitialValue = (
+  initialValueKey,
+  defaultValue,
+  sectionToMatch,
+  itemToMatch
+) => {
+  const { order } = useContext(OrderContext);
+
+  let initialValue = defaultValue;
+
+  order.some(section => {
+    if (section.name === sectionToMatch) {
+      section.items.some(item => {
+        if (item.name === itemToMatch) {
+          initialValue = item[initialValueKey];
+        }
+      });
+    }
+  });
+
+  return initialValue;
+};
+```
+
 ### Day 15
 **Friday, November 1, 2019**
 
