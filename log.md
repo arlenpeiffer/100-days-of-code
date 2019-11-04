@@ -1,5 +1,28 @@
 # 100 Days Of Code - Log
 
+### Day 17
+**Sunday, November 3, 2019**
+
+Merged all of my commits from the last many days into the master branch! 🥳
+
+Felt good to wrap up all the changes and tidy things up a bit. Next step is gonna be adding a header to the application. Starting to look at the best ways to do this with React Navigaiton. Here are a few things I've learned so far and a few links to things to look into further:
+
+- To remove the back button in the upper left corner when moving from one screen to another, we can set ``headerLeft: null`` on the ``navigationOptions`` object.
+``` 
+// inside of createStackNavigator RouteConfigs object..
+Checklist: {
+  screen: Checklist,
+  navigationOptions: () => ({
+    headerLeft: null
+  })
+}
+```
+- To add a specified component as the header we can again set a prop on the ``navigationOptions`` object, this time setting ``header: Header`` where Header is our specified component.
+- Turns out I won't be needing this to access the navigation prop inside of Header (I guess it's considered part of our screen components?) but to gain access to props.navigation in any ol' component you can use the HOC withNavigation: [withNavigation · React Navigation](https://reactnavigation.org/docs/en/with-navigation.html#docsNav)
+
+Alright, that's all for tonight. See ya tomorrow!
+
+
 ### Day 16
 **Saturday, November 2, 2019**
 
