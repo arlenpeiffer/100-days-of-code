@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 18
+**Monday, November 4, 2019**
+
+Put in a copule hours after dinner on the Restock application. Got the navigation.navigate calls moved into the Header component and added some dynamic styles for indicating which nav item is currently selected. Did this by accessing the current index property on ``props.navigation.state`` and setting that equal to the respective index of each screen. The boolean from that then gets passed as prop isSelected to the styled NavigationItem component. Looks like this..
+
+- ``isSelected={props.navigation.state.index === 0}  // Form``
+- ``isSelected={props.navigation.state.index === 1}  // Checklist``
+
+Took a bit of grappling with the React Navigation docs to realize that i didn't actually need to use their setParams and getParam functions in order to achieve the dynamic navigation styling I was aiming for (even though using those two functions seemed to be the most encouraged practice).
+
+Anyways, that's about it for tonight. Ciao!
+
 ### Day 17
 **Sunday, November 3, 2019**
 
