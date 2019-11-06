@@ -1,5 +1,20 @@
 # 100 Days Of Code - Log
 
+### Day 19
+**Tuesday, November 5, 2019**
+
+Spent most of the day today working on the Restock app and made quite a bit of progress. I feel like most of the styling is now pretty much done so unless anyone I show it to has suggestions for new features, I can start wrapping things up and maybe try to write some tests.
+
+Here are a few things I learned about today:
+- **SafeAreaView** — renders nested content and automatically applies padding to reflect the portion of the view that is not covered by navigation bars, tab bars, toolbars, and other ancestor views. Moreover, and most importantly, Safe Area's paddings reflect the physical limitation of the screen, such as rounded corners or camera notches (i.e. the sensor housing area on iPhone X). Currently only applicable to iOS devices with iOS version 11 or later.
+- **marginHorizontal** — has the same effect as setting both marginLeft and marginRight.
+- **marginVertical** — has the same effect as setting both marginTop and marginBottom.
+- **Dimensions.get('window').height** and **Dimensions.get(‘window’).width** — ways to access the device height and width (I think in pixels) using the React Native Dimensions class.
+- [React Native Get Device Height Width on Button Click - DEV Community 👩‍💻👨‍💻](https://dev.to/skptricks/react-native-get-device-height-width-on-button-click-19ld)
+- [react-native-viewport-units](https://github.com/jmstout/react-native-viewport-units)
+- [react-native-normalize](https://github.com/NewBieBR/react-native-normalize)
+
+
 ### Day 18
 **Monday, November 4, 2019**
 
