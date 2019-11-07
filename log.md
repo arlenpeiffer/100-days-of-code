@@ -1,5 +1,28 @@
 # 100 Days Of Code - Log
 
+### Day 20
+**Wednesday, November 6, 2019**
+
+Hung with Julian today and learned/took notes about the following:
+- point-free style
+- pipe()
+- compose()
+- [Eric Elliott – Medium](https://medium.com/@_ericelliott)
+- breadth-first search (BFS)
+- depth-first search (DFS)
+
+Job boards:
+- https://remoteok.io
+- https://epicjobs.co
+
+Books:
+- [Code: The Hidden Language of Computer Hardware and Software](https://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319) by Charles Petzold
+
+Also spent a little bit of time toying with adding a footer / 'Close' tab to the bottom of each Section component in Restock. Seems like a nice idea, probably finish that up tomorrow.
+
+Ciao!
+
+
 ### Day 19
 **Tuesday, November 5, 2019**
 
