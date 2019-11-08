@@ -1,5 +1,24 @@
 # 100 Days Of Code - Log
 
+### Day 21
+**Thursday, November 7, 2019**
+
+Published v1 of Restock! It's up at https://expo.io/@arlenpeiffer/restock
+
+Currently I think it's only possible to view the app in Expo Client on Android but doing/did a bunch of reading on how to create an iOS standalone version. Links to a lot of that reading below.
+
+Other than the publishing thing, did lots of refactoring and renaming this morning.. feel pretty good about how all of that turned out. ➡️ [Merge branch 'feature/refactorStyles' · arlenpeiffer/restock@4dc5829](https://github.com/arlenpeiffer/restock/commit/4dc5829e9127eba4cedd040118240441d3c6303d)
+
+Also read some of *Clean Code* and looked into getting a laptop stand/external keyboard/mouse to help save my neck. Pretty alright day.
+
+Reading:
+- [Building Standalone Apps - Expo Documentation](https://docs.expo.io/versions/latest/distribution/building-standalone-apps/)
+- [Deploying to App Stores - Expo Documentation](https://docs.expo.io/versions/latest/distribution/app-stores/)
+- [Configuration with app.json - Expo Documentation](https://docs.expo.io/versions/latest/workflow/configuration/)
+- [Publishing - Expo Documentation](https://docs.expo.io/versions/latest/workflow/publishing/)
+- [React Native: How To Publish An Expo App To TestFlight + Debug Common Errors](https://levelup.gitconnected.com/react-native-how-to-publish-an-expo-app-to-testflight-debug-common-errors-90e427b4b5ea)
+- [Enrollment - Support - Apple Developer](https://developer.apple.com/support/enrollment/)
+
 ### Day 20
 **Wednesday, November 6, 2019**
 
