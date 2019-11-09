@@ -1,5 +1,41 @@
 # 100 Days Of Code - Log
 
+### Day 22
+**Friday, November 8, 2019**
+
+Holy cow, what a day. Made a snap decision late last night to buy a domain name ( [arlenpeiffer.io](https://arlenpeiffer.io) ) and set up a portfolio site for myself.
+
+Spent the morning today reading up on how to get everything set up for the new domain.. figured out hosting (went with Netlify) and learned about SSL certificates (stands for Secure Sockets Layer and it's what https uses to make a secure connection), DNS (Domain Name Server), CDNs (Content Delivery Networks), and nameservers (the portion of your DNS records that enable people to use your domain name rather than a complex IP address to access your site).
+
+After I decided to go with Netlify for hosting and got all of the nameservers switched over for that, I started to read up on Gatsby (I think that's what I'd like to try using to make my portfolio). Set up a new repo and played around for a while but ended up deciding to make the little landing page for the site with CRA. Think i need a little more time to play around with and understand the Gatsby world..
+
+Here are a few notes I took this morning about Gatsby and the Gatsby CLI:
+
+- **install Gatsby CLI:** ``npm install -g gatsby-cli``
+
+- **create new site:** ``gatsby new arlenpeiffer.io``
+
+- **start dev server:** ``gatsby develop``
+	- *Gatsby will start a hot-reloading development environment accessible by default at localhost:8000*
+
+- **create production build:** ``gatsby build``
+	- *Gatsby will perform an optimized production build for your site, generating static HTML and per-route JavaScript code bundle*
+
+- **serve production build locally:** ``gatsby serve``
+	- *Gatsby starts a local HTML server for testing your built site. Remember to build your site using gatsby build before using this command.*
+
+- **access documentation for CLI commands:** ``gatsby —help``
+
+Also, read this in *Clean Code* today and thought these were fun and probably worth remembering..
+
+- Number of function arguments:
+	- 0 = niladic
+	- 1 = monadic
+	- 2 = dyadic
+	- 3 = triadic
+	- 4 of more = polyadic
+
+
 ### Day 21
 **Thursday, November 7, 2019**
 
