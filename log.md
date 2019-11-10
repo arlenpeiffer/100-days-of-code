@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 23
+**Saturday, November 9, 2019**
+
+Starting to feel the burn of doing this every day with no breaks. Also starting to feel a craving for a little more structure/guidance. Decided to try picking back up with some lessons on freeCodeCamp in response to that craving, but rather than jump back into the HTML/CSS stuff I had started at the beginning of the year thought it might be more beneficial to start with the JavaScript Algorithms and Data Structures Certification. Blew through 67 of the 110 lessons in the Basic JavaScript section today, and took some notes while I did it to help cement some of the early concepts and to remind me of a few things I had forgotten.
+
+
 ### Day 22
 **Friday, November 8, 2019**
 
