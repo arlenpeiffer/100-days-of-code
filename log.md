@@ -1,5 +1,22 @@
 # 100 Days Of Code - Log
 
+### Day 25
+**Monday, November 11, 2019**
+
+Worked through a few freeCodeCamp challenges on looping and recursion this morning before work. Also spent a little time with this article on recursion.. [Learn and Understand Recursion in JavaScript - codeburst](https://codeburst.io/learn-and-understand-recursion-in-javascript-b588218e87ea)
+
+A few takeaways from the first half of the article:
+- **recursion** ➡️ when a function calls itself
+- **factorial** ➡️ the product of an integer and all the integers below it
+
+- The three key features of recursion:
+	- 1️⃣ A Termination Condition — *if (something bad happened) { STOP };*
+	- 2️⃣ A Base Case — *if (this happens) { Yay! We're done };*
+	- 3️⃣ The Recursion — *our function calling itself*
+	
+More on all of this tomorrow... Ciao!
+
+
 ### Day 24
 **Sunday, November 10, 2019**
 
