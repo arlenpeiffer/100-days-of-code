@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 26
+**Tuesday, November 12, 2019**
+
+Finished reading and taking notes on the "Learn and Understand Recursion" article from yesterday. Still wrapping my head around writing recursive functions but I think the general ideas are there.
+
+Also worked through a handful more chanllenges on freeCodeCamp.. today they were mostly focused on recursion, parseInt(), and Math.random(). Got pretty hung up on [this challenge](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/profile-lookup) and after toiling for a long while, I ended up reading the challenge hints and realized I had everything correct except for the placement of one of the return statements. I think the way I had it initially was causing the for loop to return early, so not every item in the array was actually being looped over.
+
+Ultimately this caused me to realize that I think I've had some misconceptions about for loops + .map().. thinking that they were the exact same thing (they're not) and that neither could return early (they can, or at least the for loop can). Either way, I think I gotta do some more solidifying/resetting my understanding of for loops!
+
+Keepin' at it tomorrow. Will definitely be able to wrap up the Basic JavaScript section, only two challenges left! 🏆
+
+Ciao!
+
+
 ### Day 25
 **Monday, November 11, 2019**
 
