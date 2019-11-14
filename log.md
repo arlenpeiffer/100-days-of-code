@@ -1,5 +1,64 @@
 # 100 Days Of Code - Log
 
+### Day 27
+**Wednesday, November 13, 2019**
+
+Finished the last two challenges on recursion in the Basic JavaScript section and feel like I'm getting a better handle on writing and understanding recursive functions.
+
+Broke down this function from the second to last challenge to help illustrate what each recursive call does..
+
+```
+function rangeOfNumbers(startNum, endNum) {
+  if (endNum === startNum) {
+    return [endNum];
+  } else {
+    var numbers = rangeOfNumbers(startNum, endNum - 1);
+    numbers.push(endNum);
+    return numbers;
+  }
+};
+```
+
+**Q:** What happens when we call `rangeOfNumbers(1, 5)`?
+
+- rangeOfNumbers(1, 5)
+	- OR ➡️ `rangeOfNumbers(1, 5 -1).push(5);`
+	- OR ➡️ `rangeOfNumbers(1, 4).push(5);`
+	- OR ➡️ `[1, 2, 3, 4].push(5);`
+	- OR ➡️ `[1, 2, 3, 4, 5];`
+- rangeOfNumbers(1, 4)
+	- OR ➡️ `rangeOfNumbers(1, 4 -1).push(4);`
+	- OR ➡️ `rangeOfNumbers(1, 3).push(4);`
+	- OR ➡️ `[1, 2, 3].push(4);`
+	- OR ➡️ `[1, 2, 3, 4];`
+- rangeOfNumbers(1, 3)
+	- OR ➡️ `rangeOfNumbers(1, 3 -1).push(3);`
+	- OR ➡️ `rangeOfNumbers(1, 2).push(3);`
+	- OR ➡️ `[1, 2].push(3);`
+	- OR ➡️ `[1, 2, 3];`
+- rangeOfNumbers(1, 2)
+	- OR ➡️ `rangeOfNumbers(1, 2 - 1).push(2);`
+	- OR ➡️ `rangeOfNumbers(1, 1).push(2);`
+	- OR ➡️ `[1].push(2);`
+	- OR ➡️ `[1, 2];`
+- rangeOfNumbers(1, 1)
+	- OR ➡️ `[1];`
+
+Also started working through the next seciton on ES6. It was kinda wild to see how many of the new features introduced in ES6 are so core to how I write JavaScript. Lessons so far have been mostly on var/let/const, arrow functions, spread, rest, and destructuring. A few quick take aways:
+
+- When you declare a variable with `var`, it is declared globally, or locally if declared inside a function.
+- When you declare a variable with `let` inside a block, statement, or expression, its scope is limited to that block, statement, or expression.
+- Any attempt at changing the object passed to Object.freeze() will be rejected without an error.
+- Destructuring allows you to assign a new variable name when extracting values. You can do this by putting the new name **after** a colon when assigning the value. 🆒🆕
+
+```
+const user = { name: 'John Doe', age: 34 };
+const { name: userName, age: userAge } = user;
+// userName = 'John Doe', userAge = 34
+```
+
+
+
 ### Day 26
 **Tuesday, November 12, 2019**
 
