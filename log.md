@@ -1,5 +1,24 @@
 # 100 Days Of Code - Log
 
+### Day 28
+**Thursday, November 14, 2019**
+
+Completed the rest of the section on ES6 for the Algorithms and Data Structures Certification on freeCodeCamp 🏆 Started working through a few lessons in the next section on Regular Expressions.
+
+Also spent some time looking into a few different improvements to the Restock project. Played around with adding a clear button ('x') that appears after an item is checked off on the Checklist screen. Mostly got it working but something is up with the way that the item count is rendered in the Counter componenets on the Form screen. Gotta look into that more.
+
+Briefly took a look at Dylan's suggestion of splitting up my reducer logic into section and item reducers. Not quite sure yet how to do this with hooks as compared to combineReducers in Redux, but did find this article to maybe dig into further..
+
+- [Build Your Own React-Redux Using useReducer and useContext Hooks](https://blog.bitsrc.io/build-our-own-react-redux-using-usereducer-and-usecontext-hooks-a5574b526475)
+
+Spent some time as well looking into setting up testing for Restock, but ran out of brain-energy after a bit. Here are the tabs I had open on getting things set up with React Native Testing Library/Jest/Expo..
+
+- [Install · React Native Testing Library](https://www.native-testing-library.com/docs/install)
+- [react/packages/react-test-renderer at master · facebook/react](https://github.com/facebook/react/tree/master/packages/react-test-renderer)
+- [Configuring Jest · Jest](https://jestjs.io/docs/en/configuration)
+- [Testing with Jest - Expo Documentation](https://docs.expo.io/versions/latest/guides/testing-with-jest/)
+
+
 ### Day 27
 **Wednesday, November 13, 2019**
 
