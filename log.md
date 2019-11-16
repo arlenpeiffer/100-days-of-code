@@ -1,5 +1,22 @@
 # 100 Days Of Code - Log
 
+### Day 29
+**Friday, November 15, 2019**
+
+Still scratching my head a bit about the React Native testing stuff. Followed the Expo docs on setting up Jest, but am still a bit confused about whether to use react-native-testing-library or native-testing-library. Did some reading and enjoyed these couple articles:
+
+- [Why Native Testing Library Exists - Brandon Carroll - Medium](https://medium.com/@brandoncarroll/why-native-testing-library-exists-629ffb85cae2)
+- [Hello, Native Testing Library 👋 - Brandon Carroll - Medium](https://medium.com/@brandoncarroll/hello-native-testing-library-91ea326ea0f5)
+
+Also worked through a handful more lessons in the freeCodeCamp Regex section. Learned about:
+
+- `.` — wildcard character
+- `[0-9a-z]` - character class/set
+- `[^0-9a-z]` — negated character class/set
+- `+` — character or set occurs one or more times
+- `*` — character or set occurs zero or more times
+
+
 ### Day 28
 **Thursday, November 14, 2019**
 
