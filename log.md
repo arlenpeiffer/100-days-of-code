@@ -1,5 +1,29 @@
 # 100 Days Of Code - Log
 
+### Day 30
+**Saturday, November 16, 2019**
+
+Completed the remaining 20 challenges in the Regular Expressions section 🏆
+
+Some takeaways..
+
+- `^` = matches pattern at the beginning of a string
+- `$` = matches pattern at the end of a string
+- `\w` = [A-Za-z0-9_] (matches all letters, numbers, and underscore)
+- `\W` = [^A-Za-z0-9_] (matches everything but letters, numbers, and underscore)
+- `\d` = [0-9] (matches all numbers)
+- `\D` = [^0-9] (matches everything but numbers)
+- `\s` = [ \r\t\f\n\v] (matches all whitespace characters)
+- `\S` = [^ \r\t\f\n\v] (matches everything but whitespace characters)
+- `?` = checks for zero or one of the preceding element
+- `?=` = positive lookahead
+- `?!` = negative lookahead
+
+Also spent a little time trying out some tests with both react-native-testing-library and native-testing-library.. still not sure what to do about all of that.
+
+Pretty wiped out after 30 days straight, but feeling really motivated and excited to keep at it. See ya tomorrow.
+
+
 ### Day 29
 **Friday, November 15, 2019**
 
