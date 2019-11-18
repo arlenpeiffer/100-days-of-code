@@ -1,5 +1,42 @@
 # 100 Days Of Code - Log
 
+### Day 31
+**Sunday, November 17, 2019**
+
+Completed the freeCodeCamp section on Debugging and made it halfway through the following section on Basic Data Structures. Feels like review, but honestly never hurts to do a refresher on the array methods..
+
+- `.push()`
+	- takes one or more elements as parameters and adds those elements to the end of an array
+	- returns the new length of the array
+- `.unshift()`
+	- takes one or more elements as parameters and adds those elements to the beginning of an array
+	- returns the new length of the array
+- `.pop()`
+	- takes no parameters
+	- removes a single element from the end of an array
+	- returns the removed item 
+- `.shift()`
+	- takes no parameters
+	- removes a single element from the beginning of an array
+	- returns the removed item
+- `.splice()`
+	- removes any number of consecutive elements from anywhere in an array
+	- takes up to 3 parameters
+       	1. index at which to begin removing elements
+        2. number of elements to remove
+        3. element, or elements separated by commas, to add to the array in place of the removed elements
+	- modifies the array it’s called on and also returns a new array containing the values of the removed elements
+- `.slice()`
+	- copies or extracts a given number of elements to a new array, leaving the array it was called upon untouched
+	- takes 2 parameters
+        1. index at which to begin extraction
+        2. index at which to stop extraction *(extraction will occur up to, but not including the element at this index)*
+- `.indexOf()`
+	- checks for the presence of an element in an array
+	- takes an element as a parameter
+	- returns the position (index) of the given element, or -1 if the element does not exist in the array
+
+
 ### Day 30
 **Saturday, November 16, 2019**
 
