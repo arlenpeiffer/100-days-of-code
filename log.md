@@ -1,5 +1,28 @@
 # 100 Days Of Code - Log
 
+### Day 32
+**Monday, November 18, 2019**
+
+Got to work on things for an hour or so before work this morning and an hour or so after dinner. Was able to complete the remaining lessons in the Basic Data Structures section, but not without a bit of trouble 😅
+
+Had a really tough time for some reason with the *Check if an Object has a Property* and *Iterate Through the Keys of an Object with a for...in Statement* challenges. The first one I think I was making overly complicated by trying to use the wrong array method for the job (.map instead of .every) and not thinking about where I was placing my return values. For the for...in one, I was just being dumb and not realizng that user is a variable (see below) and therefore I should be using bracket notation. Here was my answer for the second challenge..
+
+```
+function countOnline(usersObj) {
+  // change code below this line
+  let onlineUsers = 0;
+  for (let user in usersObj) {
+    usersObj[user].online && onlineUsers++;
+  }
+  return onlineUsers;
+  // change code above this line
+}
+
+```
+
+I also think there were a few times I had issues just because I was forgetting the variable declaration keyword.. so um, just a reminder that you got use let or const 🙃
+
+
 ### Day 31
 **Sunday, November 17, 2019**
 
