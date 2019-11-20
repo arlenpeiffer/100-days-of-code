@@ -1,5 +1,189 @@
 # 100 Days Of Code - Log
 
+### Day 33
+**Tuesday, November 19, 2019**
+
+Got to spend pretty much the entire day working on coding today. Not sure if you'd be able to tell that or not from what I accomplished but it was nice to have the entire day to dig into a handful of different things.
+
+Spent the morning kind of assessing my goals for the week and took another stab at setting up some tests for Restock. With a little help from my buddy Dylan I realized I don't actually need a testing library for what I'm doing right now and was able to get some basic Jest tests going for my reducer file.
+
+After that I spent a couple hours working on splitting up the Restock reducer logic into section and item reducers, and tried to break up the handleUpdateOrder function into some smaller and more specific functions. Got kinda lost in it all and started feeling frustrated so decided to step away for the day and try something else.
+
+The last little bit of the day I spent working through more challenges on freeCodeCamp. Made it through 13 of the 16 challenges in the Basic Algorithm Scripting section, and saved all of my solutions as I went through to be able to look back at. Think I'll post them here for safe keeping..
+
+**Convert Celsius to Fahrenheit**
+
+```
+function convertToF(celsius) {
+  let fahrenheit = celsius * 9/5 + 32;
+  return fahrenheit;
+}
+
+convertToF(30);
+```
+
+**Reverse a String**
+
+```
+function reverseString(str) {
+  const arr = str.split('');
+  const reversedStr = arr.reduceRight((acc, char) => {
+    return acc + char;
+  })
+  return reversedStr;
+}
+
+reverseString("hello");
+```
+
+- **note:** could use .join(‘’) instead of .reduceRight(...)
+
+**Factorialize a Number**
+
+```
+function factorialize(num) {
+  if (num <= 1) return 1;
+  return num * factorialize(num - 1);
+}
+console.log(factorialize(5));
+factorialize(5);
+```
+
+**Find the Longest Word in a String**
+
+```
+function findLongestWordLength(str) {
+  const arr = str.split(" ");
+  let longestLength = 0;
+  arr.map(word => {
+    if (word.length > longestLength) {
+      return longestLength = word.length;
+    }
+  });
+  return longestLength;
+}
+
+findLongestWordLength("The quick brown fox jumped over the lazy dog");
+```
+
+**Return Largest Numbers in Arrays**
+
+```
+function largestOfFour(arr) {
+  let largestNumbers = [];
+  arr.map(subArray => {
+    let largestNumber = subArray[0];
+    subArray.map(number => {
+      if (number > largestNumber) {
+        largestNumber = number;
+      }
+    })
+    largestNumbers.push(largestNumber);
+  });
+  return largestNumbers;
+}
+
+largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
+```
+
+**Confirm the Ending**
+
+```
+function confirmEnding(str, target) {
+  const charsFromEnd = str.length - target.length;
+  const ending = str.substring(charsFromEnd);
+  return ending === target;
+}
+
+confirmEnding("Bastian", "n");
+```
+
+**Repeat a String Repeat a String**
+
+```
+function repeatStringNumTimes(str, num) {
+  if (num < 1) return "";
+  return str + repeatStringNumTimes(str, num - 1);
+}
+
+repeatStringNumTimes("abc", 3);
+```
+
+**Truncate a String**
+
+```
+function truncateString(str, num) {
+  if (str.length > num) {
+    return str.substring(0, num) + "..."
+  }
+  return str;
+}
+
+truncateString("A-tisket a-tasket A green and yellow basket", 8);
+```
+
+- **note:** could also use a ternary, might look nicer
+
+**Finders Keepers**
+
+```
+function findElement(arr, func) {
+  return arr.find(element => func(element))
+}
+
+findElement([1, 2, 3, 4], num => num % 2 === 0);
+```
+**Boo who**
+
+```
+function booWho(bool) {
+  // What is the new fad diet for ghost developers? The Boolean.
+  return typeof bool === "boolean";
+}
+
+booWho(null);
+```
+
+**Title Case a Sentence**
+
+```
+function titleCase(str) {
+  const words = str.split(" ");
+  const capitalized = words.map(word => {
+    const firstLetter = word.slice(0, 1).toUpperCase();
+    const remainingLetters = word.slice(1).toLowerCase();
+    return firstLetter + remainingLetters;
+  })
+  return capitalized.join(" ");
+}
+
+titleCase("I'm a little tea pot");
+```
+
+**Slice and Splice**
+
+```
+function frankenSplice(arr1, arr2, n) {
+  const beginning = arr2.slice(0, n);
+  const end = arr2.slice(n);
+  const combined = [...beginning, ...arr1, ...end];
+  return combined;
+}
+
+frankenSplice([1, 2, 3], [4, 5, 6], 1);
+```
+
+**Falsy Bouncer**
+
+```
+function bouncer(arr) {
+  return arr.filter(item => !!item !== false);
+}
+
+bouncer([7, "ate", "", false, 9]);
+```
+
+
 ### Day 32
 **Monday, November 18, 2019**
 
