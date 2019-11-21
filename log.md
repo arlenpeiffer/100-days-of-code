@@ -1,5 +1,74 @@
 # 100 Days Of Code - Log
 
+### Day 34
+**Wednesday, November 20, 2019**
+
+Had a mostly pretty frustrating day today. I think I'm burning out a bit.
+
+Spent pretty much the whole day coding again, but tried to step away and take a few breaks.
+
+Was able to finish the Basic Algorithm Scripting section on freeCodecamp. The last challenge really threw me for a loop.. feel like I spent way too long on that one, and in the end had to look up hints for how to solve it. Either way, solutions for the last 3 challenges are below.
+
+Also read a copule chapters in *Clean Code* and spent some time trying to refactor things in Restock. Still trying to figure out the split reducer stuff, and if I can move the handleUpdateOrder logic out of App.js and into the components that call the ADD/UPDATE/REMOVE actions. As I work on it more I'm struggling to see if it's even possible to separate some of the layers given the way it's built. Might spend a little time on it tomorrow, but kind of feeling like I should maybe ditch the refactor stuff and move on. Find out tomorrow..
+
+Here're today's solutions from Basic Algorithm Scripting..
+
+**Where do I Belong**
+
+```
+function getIndexToIns(arr, num) {
+  let indexToIns = 0;
+  const sorted = arr.sort();
+
+  for (let i = 0; i < sorted.length; i++) {
+    if (num > sorted[i]) {
+      indexToIns++;
+    }
+  }
+  return indexToIns;
+}
+
+getIndexToIns([40, 60], 50);
+```
+
+**Mutations**
+
+```
+function mutation(arr) {
+  const string = arr[0].toLowerCase();
+  const characters = arr[1].toLowerCase().split('');
+  return characters.every(character => string.includes(character));
+}
+
+mutation(["hello", "hey"]);
+```
+
+**Chunky Monkey**
+
+```
+function chunkArrayInGroups(arr, size) {
+  const chunks = [];
+  while (arr.length > 0)
+    chunks.push(arr.splice(0, size));
+  return chunks;
+  // const chunks = [];
+  // const numOfChunks = Math.ceil(arr.length / size);
+  // for (let i = 0; i < arr.length; i += size) {
+  //   const remainingItems = arr.length - i;
+  //   if (remainingItems <= size) {
+  //     const chunk = arr.slice(i);
+  //     chunks.push(chunk);
+  //   }
+  //   const chunk = arr.slice(i, size);
+  //   chunks.push(chunk);
+  // }
+  // console.log(chunks);
+  // return chunks;
+}
+
+chunkArrayInGroups(["a", "b", "c", "d", "e"], 2);
+```
+
 ### Day 33
 **Tuesday, November 19, 2019**
 
