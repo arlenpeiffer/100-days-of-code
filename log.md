@@ -1,5 +1,22 @@
 # 100 Days Of Code - Log
 
+### Day 35
+**Thursday, November 21, 2019**
+
+Man this thing is a crazy ride. Learning every day..
+
+Went to bed early last night and woke up today feeling a little lighter. Tried not to set too many expectations or programming goals for the day, and just started out by reading some of *Clean Code* and a couple articles.. *(links below)*
+
+After that I tried taking another crack at the refactor stuff for Restock that I've been struggling with. Wound up getting tangled in it again and decided I'm gonna have to leave that one for later and move on. Feels really discouraging to have been working at it now for a couple days and to not be seeing any results.
+
+After forfeiting on the Restock stuff, I started digging into the freeCodeCamp section on Object Oriented Programming. Feels fun so far. Made it through 11 out of the 26 challenges for the section.
+
+Links from the day:
+- [Inversion of Control](https://kentcdodds.com/blog/inversion-of-control)
+- [MICHÆL JACKSON on Twitter: …](https://twitter.com/mjackson/status/1195495535483817984)
+- [No, disabling a button is not app logic. - DEV Community 👩‍💻👨‍💻](https://dev.to/davidkpiano/no-disabling-a-button-is-not-app-logic-598i)
+
+
 ### Day 34
 **Wednesday, November 20, 2019**
 
