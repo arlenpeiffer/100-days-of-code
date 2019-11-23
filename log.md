@@ -1,5 +1,27 @@
 # 100 Days Of Code - Log
 
+### Day 36
+
+Had a really fun day today with coding! Spent the evening doing some research / getting inspiration for my personal website. Looked at a bunch of other front end dev's portfolios and took down a bunch of notes.
+
+During the couple hours of research, I started scratching the surface of a cool new programmer/art/intellectual world that I want to get more involved with. Here are a bunch of links related to that scratching..
+
+- http://www.onemilescroll.com/
+- https://www.are.na/jon-kyle-mohr
+- http://obs.astro.ucla.edu/towercam.htm#imagetop (Mt. Wilson Towercam)
+- https://thecreativeindependent.com/
+- https://a-b-z.co/
+- http://kenlumart.com/
+- http://ascii.designforthe.net/ (ASCII Town)
+- http://designforthe.net/
+- https://www.are.na/mindy-seu/
+- http://www.mindyseu.com/
+
+After all of that fun digging, I was feeling super motivated and excited to start rethinking a few parts of the Journal project. Been heavily considering ditching the Ant Design stuff and trying out a different UI library. Was looking at Material Design for a while tonight but after scratching my head just trying to get it imported, I realized that it's massively complicated and that Material-UI is actually the way to go. Spent some time getting that set up and then playing around with colors and the ThemeProvider. Feel really excited to keep digging on all of that tomorrow.
+
+Ciao!
+
+
 ### Day 35
 **Thursday, November 21, 2019**
 
