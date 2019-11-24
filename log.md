@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+### Day 37
+
+Spent pretty much the entire day reading docs and playing around with Material-UI and Formik. Starting to get a better system going for Journal. Definitely gonna be a bit of work these next few days as I figure out how to re-implement what I had going on with some of the Ant Design components, but shouldn't be too crazy.
+
+TIL about:
+- **jsconfig.json files** https://code.visualstudio.com/docs/languages/jsconfig
+	- *started quickly looking at ways to set up absolute paths in a create react app and I guess doing it via a jsconfig.json file is the recommended way in the CRA docs* https://create-react-app.dev/docs/importing-a-component/#absolute-imports
+- **index.lock files in git**
+	- *experienced a weird new error i've never seen before. was happening every time i was trying to stage changes in SourceTree. seems maybe kind of common? read a few things briefly, but seems like the way to solve it is by running* `rm -f .git/index.lock`
+
+Okay I'm fried. See ya tomorrow.
+
+
 ### Day 36
 
 Had a really fun day today with coding! Spent the evening doing some research / getting inspiration for my personal website. Looked at a bunch of other front end dev's portfolios and took down a bunch of notes.
