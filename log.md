@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+### Day 38
+
+Only had a little time to work on stuff today, but got a decent start on creating a Rating compoment for the journal, and learned that passing `multiline={true}` to the MUI TextField compoment will convert it from a standard input to a textarea. Pretty cool!
+
+Also started reading Chapter 10 of *Clean Code* and have a growing list of OOP concepts to look up/understand better. So far it's just:
+- what are private and public variables?
+- what are static variables?
+
+Was hoping to have more time to read up on everything tonight but I think it'll have to wait til tomorrow..
+
+Til then!
+
+
 ### Day 37
 
 Spent pretty much the entire day reading docs and playing around with Material-UI and Formik. Starting to get a better system going for Journal. Definitely gonna be a bit of work these next few days as I figure out how to re-implement what I had going on with some of the Ant Design components, but shouldn't be too crazy.
