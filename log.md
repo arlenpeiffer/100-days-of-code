@@ -1,5 +1,16 @@
 # 100 Days Of Code - Log
 
+### Day 39
+
+Super tired rn, but gonna make a quick log.
+
+Worked on the journal / got a few more components started (Slider, Toggle) and Rating seems pretty much done. Grappling with the spacing quite a bit, feel like I should maybe dig into the docs on theme.spacing() tomorrow.. figure out how to do all that.
+
+Also read the *Clean Code* chapter on classes and did some extra reading on private vs. public variables, static vs. non-static variables, coupling, and cohesion.
+
+Ok goodnight
+
+
 ### Day 38
 
 Only had a little time to work on stuff today, but got a decent start on creating a Rating compoment for the journal, and learned that passing `multiline={true}` to the MUI TextField compoment will convert it from a standard input to a textarea. Pretty cool!
