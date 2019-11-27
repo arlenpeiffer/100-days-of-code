@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 40
+
+Worked on more of the same today. Got a start on a CheckboxGroup component and also made a FieldLabel component using Material's InputLabel with the shrink prop. Took a while to get that one to look right.. had to do some css research but learned how to select the adjacent sibling of an element with the **adjacent sibling combinator** (+).
+
+Feeling pretty tedious getting these components set up but hopefully it will pay off in the end. Ciao!
+
 ### Day 39
 
 Super tired rn, but gonna make a quick log.
