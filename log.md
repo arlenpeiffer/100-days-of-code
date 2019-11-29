@@ -1,12 +1,28 @@
 # 100 Days Of Code - Log
 
+### Day 42
+**Thursday, November 28, 2019**
+
+Back at it today. Worked today on creating my own custom Formik FieldArray component that abstracts some repeated code out of the EntryForm component. Started learning about React.Children + React.cloneElement and when they can be useful in place of props.children.
+
+[reactjs - When should I be using React.cloneElement vs this.props.children? - Stack Overflow](https://stackoverflow.com/questions/37521798/when-should-i-be-using-react-cloneelement-vs-this-props-children/50441271#50441271)
+
+
+### Day 41
+**Wednesday, November 27, 2019**
+
+Happy Birthday Arlen!
+
+
 ### Day 40
+**Tuesday, November 26, 2019**
 
 Worked on more of the same today. Got a start on a CheckboxGroup component and also made a FieldLabel component using Material's InputLabel with the shrink prop. Took a while to get that one to look right.. had to do some css research but learned how to select the adjacent sibling of an element with the **adjacent sibling combinator** (+).
 
 Feeling pretty tedious getting these components set up but hopefully it will pay off in the end. Ciao!
 
 ### Day 39
+**Monday, November 25, 2019**
 
 Super tired rn, but gonna make a quick log.
 
@@ -18,6 +34,7 @@ Ok goodnight
 
 
 ### Day 38
+**Sunday, November 24, 2019**
 
 Only had a little time to work on stuff today, but got a decent start on creating a Rating compoment for the journal, and learned that passing `multiline={true}` to the MUI TextField compoment will convert it from a standard input to a textarea. Pretty cool!
 
@@ -31,6 +48,7 @@ Til then!
 
 
 ### Day 37
+**Saturday, November 23, 2019**
 
 Spent pretty much the entire day reading docs and playing around with Material-UI and Formik. Starting to get a better system going for Journal. Definitely gonna be a bit of work these next few days as I figure out how to re-implement what I had going on with some of the Ant Design components, but shouldn't be too crazy.
 
@@ -44,6 +62,7 @@ Okay I'm fried. See ya tomorrow.
 
 
 ### Day 36
+**Friday, November 22, 2019**
 
 Had a really fun day today with coding! Spent the evening doing some research / getting inspiration for my personal website. Looked at a bunch of other front end dev's portfolios and took down a bunch of notes.
 
