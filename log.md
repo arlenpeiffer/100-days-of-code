@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 43
+**Friday, November 29, 2019**
+
+Worked tonight on refactoring the FieldArray component and getting it to work inside of another FieldArray (`items` FieldArray inside of `meals` FieldArray). Also worked on setting up a TimePicker component and learned the difference between `@material-ui/pickers`'s regular DatePicker/TimePicker and their KeyboardDatePicker/KeyboardTimePicker. Seems like switching to the basic version sans keyboard control makes my life simpler in a lot of ways (doesn't require me to make the input read only, opens the picker modal when clicking anywhere in the compoment instead of just when clicking the icon on the right), so got those swapped out. Still gotta figure out how to get the correct unix value for the TimePicker/how to make it sync up with the current date.. That'll be my first challenge for tomorrow 🙃
+
+Also worth noting, took the State of JS survey today which felt really cool after reading through all of the data from last year. I feel excited to be at a place where I can contribute my thoughts and experience thus far, even if it is only a year or so's worth of thoughts and experiences.
+
+Excited to keep at it tomorrow. See ya then!
+
+
 ### Day 42
 **Thursday, November 28, 2019**
 
