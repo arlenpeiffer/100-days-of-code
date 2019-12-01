@@ -1,5 +1,98 @@
 # 100 Days Of Code - Log
 
+### Day 44
+**Saturday, November 30, 2019**
+
+Feeling a little burnout/imbalance coming on again today. Noticed a frustration, both with the pace of this week and with not being able to find as much time to work on everything, that I feel is being taken out on myself (feeling incapable/not good enough because I'm moving at a slower pace than I had hoped). Feels good to recognize it though, and to remind myself that this is all a process and that I'm still learning and developing my workflow.
+
+Spent a handful of hours this morning chipping away at the TimePicker issue I mentioned yesterday.. Was able to get it working after a couple of hours but am still grappling with getting the code to be less of a mess. Here's what I had by the end of the morning..
+
+```
+// TimePicker.js
+
+import React, { useEffect } from 'react';
+import { Field, useField } from 'formik';
+import moment from 'moment';
+import { TimePicker as MuiTimePicker } from '@material-ui/pickers';
+
+const TimePicker = ({ name, setFieldValue, ...props }) => {
+  const [date] = useField('date');
+  const entryDate = date.value;
+  const [time] = useField(name);
+  console.log(time);
+  const startOfDay = moment(time.value).startOf('day');
+  const timeSinceStartOfDay = moment(time.value).diff(startOfDay);
+  const selectedTimeOnEntryDate = moment(entryDate).add(timeSinceStartOfDay);
+  console.log(selectedTimeOnEntryDate);
+
+  useEffect(() => {
+    console.log('useEffect', name);
+    setFieldValue(name, selectedTimeOnEntryDate.valueOf());
+  }, [entryDate]);
+
+  return (
+    <Field name={name} {...props}>
+      {({ field, form, meta }) => {
+        const { error } = meta;
+        const hasError = error ? true : false;
+
+        {
+          /* const startOfDay = moment(field.value).startOf('day');
+        const timeSinceStartOfDay = moment(field.value).diff(startOfDay);
+        const selectedTimeOnEntryDate = moment(entryDate).add(
+          timeSinceStartOfDay
+        ); */
+        }
+
+        const handleChange = value => {
+          form.setFieldValue(field.name, moment(value).valueOf());
+        };
+
+        return (
+          <div>
+            <MuiTimePicker
+              error={hasError}
+              format="h:mm A"
+              helperText={error}
+              onChange={handleChange}
+              value={selectedTimeOnEntryDate}
+              {...props}
+            />
+            <p>Date Unix: {entryDate}</p>
+            <p>Date String: {moment(entryDate).toString()}</p>
+            <p>
+              Date String (Formatted):{' '}
+              {moment(entryDate)
+                .format('dddd, MMMM Do YYYY, h:mm a')
+                .toString()}
+            </p>
+            <p>Time Unix: {time.value}</p>
+            <p>Time String (Default): {moment(time.value).toString()}</p>
+            <p>
+              Time String (Formatted):{' '}
+              {moment(time.value)
+                .format('dddd, MMMM Do YYYY, h:mm a')
+                .toString()}
+            </p>
+            <p>
+              selectedTimeOnEntryDate:{' '}
+              {moment(selectedTimeOnEntryDate).format(
+                'dddd, MMMM Do YYYY, h:mm a'
+              )}
+            </p>
+          </div>
+        );
+      }}
+    </Field>
+  );
+};
+
+export default TimePicker;
+```
+
+Hoping I can refactor this a little tomorrow and also step up my git workflow going forward. I know I can do better with branching as well as staying on task when on a particular branch.
+
+
 ### Day 43
 **Friday, November 29, 2019**
 
