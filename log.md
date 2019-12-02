@@ -1,5 +1,65 @@
 # 100 Days Of Code - Log
 
+### Day 45
+**Sunday, December 1, 2019**
+
+Spent a few more hours tonight on the TimePicker component, just trying to get it cleaned up. Not sure why this one required so much effort but feeling pretty frustrated/defeated/embarrassed about it. I think I'm just feeling wiped/a little burnt out and maybe also struggling a bit with the intricacies of the Formik library (definitely don't think I'll be using it again in the future).
+
+Either way here's the refined code for the TimePicker component..
+
+Ciao!
+
+```
+// TimePicker.js
+
+import React, { useEffect } from 'react';
+import { Field, useField } from 'formik';
+import moment from 'moment';
+import { TimePicker as MuiTimePicker } from '@material-ui/pickers';
+
+const TimePicker = ({ name, setFieldValue, ...props }) => {
+  const [date] = useField('date');
+  const [field] = useField(name);
+
+  const startOfDay = moment(field.value).startOf('day');
+  const timeSinceStartOfDay = moment(field.value).diff(startOfDay);
+  const selectedTimeOnCurrentDate = moment(date.value)
+    .add(timeSinceStartOfDay)
+    .valueOf();
+
+  useEffect(() => {
+    setFieldValue(name, selectedTimeOnCurrentDate);
+  }, [date.value]);
+
+  return (
+    <Field name={name} {...props}>
+      {({ field, form, meta }) => {
+        const { error } = meta;
+        const hasError = error ? true : false;
+
+        const handleChange = value => {
+          form.setFieldValue(field.name, moment(value).valueOf());
+        };
+
+        return (
+          <MuiTimePicker
+            error={hasError}
+            format="h:mm A"
+            helperText={error}
+            onChange={handleChange}
+            value={selectedTimeOnCurrentDate}
+            {...props}
+          />
+        );
+      }}
+    </Field>
+  );
+};
+
+export default TimePicker;
+```
+
+
 ### Day 44
 **Saturday, November 30, 2019**
 
