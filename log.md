@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 46
+**Monday, December 2, 2019**
+
+Still struggling today. I feel like all I'm doing is finding/creating more and more issues with these custom Material components for the journal. Having trouble with the Formik validation and figuring out how not to have components rerender into an error'd state when another field changes (gotta keep fucking with the onBlur and touched values), and also for some reason the Input component is suuuuper laggy. Tried using Formik's FastField instead of Field but didn't see any immediate difference so thinking it must be something else (or I'm just doing something wrong).
+
+Trying really hard to remember that even though I've been stuck on some version of this same issue for about four days now, I don't suck at coding..
+
+
 ### Day 45
 **Sunday, December 1, 2019**
 
