@@ -1,5 +1,25 @@
 # 100 Days Of Code - Log
 
+### Day 47
+**Tuesday, December 3, 2019**
+
+Wow okay so... just spent the entire day grappling with Formik. Super over it. Not finding a way to get it to work without everything constantly rerendering (becomes a major problem when inputs cause everything to rerender on every keystroke 😬). Sidenote: not sure why I wasn't having this same issue with Ant Design, but it's become an increasingly troublesome issue since switching to the new Material componenets. Either way, feeling bummed but hanging on to hope after finding another library that looks promising (React Hook Form). Excited to try bringing that in tomorrow and see how it works.
+
+Links from the day:
+- [why-did-you-render](https://github.com/welldone-software/why-did-you-render)
+- [Why Did You Render Mr. Big Pure React Component??? - Welldone Software - Medium](https://medium.com/welldone-software/why-did-you-render-mr-big-pure-react-component-2a36dd86996f)
+- [Why Did You Render Mr. Big Pure React Component Part 2- Common Fixing Scenarios](https://medium.com/welldone-software/why-did-you-render-mr-big-pure-react-component-part-2-common-fixing-scenarios-667bfdec2e0f)
+- [Using recompose HOC’s to get better performance in forms using Formik and Yup](https://travix.io/using-recompose-hocs-to-get-better-performance-in-forms-using-formik-and-yup-e51024d645ba)
+- [create-formik-fields-comparator](https://github.com/armand1m/create-formik-fields-comparator)
+- [react-final-form](https://github.com/final-form/react-final-form)
+- [React Top-Level API — React.memo](https://reactjs.org/docs/react-api.html#reactmemo)
+- [react-hook-form](https://github.com/react-hook-form/react-hook-form)
+- [Build the Next Generation of Forms With React Hooks Forms](https://medium.com/better-programming/build-the-next-generation-of-forms-with-react-hooks-forms-b4f2039e51c1)
+- [React Hook Form - Array Fields - CodeSandbox](https://codesandbox.io/s/6j1760jkjk)
+
+
+
+
 ### Day 46
 **Monday, December 2, 2019**
 
