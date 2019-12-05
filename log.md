@@ -1,5 +1,12 @@
 # 100 Days Of Code - Log
 
+### Day 48
+
+Stayed up til almost 2am playing around with React Hook Form. Seeming like it might be a better solution than Formik, but still got a few more things to figure out. More on everything tomorrow..
+
+Ciao!
+
+
 ### Day 47
 **Tuesday, December 3, 2019**
 
