@@ -1,6 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 49
+**Thursday, December 5, 2019**
+
+Spent pretty much the entire day working on the journal project. I feel like it's harder to quantify what I learned on days when I'm plugging away at a project, reading docs, and refactoring.
+
+I did learn some about controlled vs uncontrolled inputs today though. Controlled inputs keep the source of truth in component state while uncontrolled inputs keep the source of truth in the DOM. The value of an uncontrolled input can be retreived from the DOM at any point using a ref. **Sidenote:** refs have really confused me up to this point, and I still have more to learn about them, but today felt like good exposure/a nice introduction to them.
+
+Other than that, decided to scratch moving forward with React Hook Form (rewriting the entire project was seeming daunting, and also the uncontrolled input thing was freaking me out/making me feel like I was going to run into unforseen problems down the line). Went back to Formik and came up with a hacky way to get around the constant re-rendering Input fields. Not the prettiest of things but I'm happy to be moving again.
+
+See ya for Day 50 tomorrow! 🎉
+
+
 ### Day 48
+**Wednesday, December 4, 2019**
 
 Stayed up til almost 2am playing around with React Hook Form. Seeming like it might be a better solution than Formik, but still got a few more things to figure out. More on everything tomorrow..
 
