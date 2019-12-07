@@ -1,5 +1,21 @@
 # 100 Days Of Code - Log
 
+### Day 50 🎉
+**Friday, December 6, 2019**
+
+Woohoo! I made it halfway 🙃
+
+Worked on refactoring and building out the input components for journal some more. Lots of playing around with different edge cases tonight, like "since the AutoComplete components only update the field value when you select something from the dropdown or hit enter, what happens if you have something typed in the input but tab or click to another field?" (Answer: gotta setFieldValue onBlur!)
+
+Also figured out how passing props to a field in Formik works when using useField..
+
+➡️ `const [field, meta] = useField({ name, validate, ...props });`
+
+Feel like it's all coming together and the intricacies of Formik are finally starting to make some more sense. Hopefully be able to wrap up most of the work on the input components tomorrow. Fingers crossed!
+
+Ciao!
+
+
 ### Day 49
 **Thursday, December 5, 2019**
 
