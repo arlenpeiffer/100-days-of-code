@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 51
+**Saturday, December 7, 2019**
+
+Spent a good chunk of the day working on the components for journal. Finished up with `AutoComplete`, which can now fully support the `multiple` prop for storing an array of items (using it to save a list of searchable ingredients under `food.meals.items`).
+
+Got a pretty good start on the `Select` component but still need to figure out how I want to set it up to take an array of items (`logs.diets` for example) as a prop and render a `MenuItem` for each item in the array. Also, would like to be able to pass `Select` a prop that, it true, will render an `AddItem` component below the menu, allowing the user to add new `MenuItem`s, etc.
+
+The major hang up (learning experience) today came in the form of a basic HTML attribute. I started noticing while working on the `AutoComplete` component that when I would hit enter inside of the input, the entire form would submit and all fields were suddenly touched and showing validation errors. Oh god! Turns out that's a standard feature of the attribute `type="submit"`. Got rid of that and added an `onClick={handleSubmit}` and everything worked as expected. Great to know for the future!
+
+Alright, that's all for now. See ya tomorrow!
+
+
 ### Day 50 🎉
 **Friday, December 6, 2019**
 
