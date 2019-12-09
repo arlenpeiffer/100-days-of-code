@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 52
+**Sunday, December 8, 2019**
+
+Only had a little time to work on coding tonight after working all day at the cafe, but tried to make the most of it by digging into the Material UI docs on theming and dynamic rendering. Was looking for information on a way to change the layout of a component based on the size of the screen. Learned briefly about a few things..
+
+- `Grid` - a component that deals with dynamic rendering/layout. Don't think it's the tool I need for this situation though as I need the component itself to change its layout, not the page.
+- `Hidden` - a component that I didn't know existed. Can dynamically show or hide whatever is passed to it, cool to know about.
+- `theme.breakpoints` - part of the theme configuration object. It contains a list of breakpoint values and functions for returning media queries.. definitely seems like this is what I'm after. Feeling a little confused though by its functions (`up`, `down`, `between`, etc.) as they weren't working the way I expected. Definitely gonna do some more reading tomorrow and try to figure out if it's something I'm doing wrong or an issue with the Material API.
+
+Alrighty. Ciao!
+
+
 ### Day 51
 **Saturday, December 7, 2019**
 
