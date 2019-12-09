@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+### Day 53
+**Monday, December 9, 2019**
+
+Spent the morning working on the Toggle component for journal and was able to figure out styling and the `flex-direction` switch based on screen size! Learned about overriding styles and props in the global theme object, using the classes prop to access style class names on components, and ways to pass props for dynamic styling just like in styled-components. Here are some links:
+
+- [Globals - Material-UI](https://material-ui.com/customization/globals/)
+- [Default Theme - Material-UI](https://material-ui.com/customization/default-theme/#default-theme)
+- [Overriding styles - classes prop - Material-UI](https://material-ui.com/styles/advanced/#overriding-styles-classes-prop)
+- [@material-ui/styles - Material-UI](https://material-ui.com/styles/basics/#material-ui-styles)
+
+Ciao!
+
+
 ### Day 52
 **Sunday, December 8, 2019**
 
