@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 54
+**Tuesday, December 10, 2019**
+
+Worked really hard on trying to finish the rest of the journal components today. Sadly only made it most of the way through the CheckboxGroup component by the end of the day.
+
+Tried for a few hours in the morning to add some features to the Toggle component (changing the border color to `theme.primary.main` when focused or hovered and improving the onBlur functionality/setting the touched state to true if the user selects and deselects the same value) but had to give up and move on after a while.
+
+The rest of the afternoon was spent figuring out things for the CheckboxGroup component.. how to sort the array of checked values before updating the field value and not have Formik re-render an unnecessary amount of times, and then lots of styling things like how to remove the silly halo effect on hover (and then how to remove it on hover when the checkbox state is checked 🙄), how to get rid of the silly amount of padding around the checkboxes, and how to make the font size smaller in Material's FormControlLabel component (still not totally happy about the workaround I figured out). Also spent a while learning how the MUI Grid system works.
+
+Got pretty into using the keyboard shortcut `⌘ + Shift + C` in the Chrome DevTools to inspect elements.
+
+Hopefully with a little luck I can get the rest of the CSS hurdles figured out tomorrow and be on my way to finishing these components.. 😅
+
+
 ### Day 53
 **Monday, December 9, 2019**
 
