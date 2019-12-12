@@ -1,5 +1,47 @@
 # 100 Days Of Code - Log
 
+### Day 55
+**Wednesday, December 11, 2019**
+
+Made some huge (feeling) progress on the journal today! Finalized all of the changes from the last few days and committed/merged everything back into the `feature/refactorFormik` branch. Also made some big progress on refactoring and fleshing out the Slider component, and am pretty proud of some of the code I wrote for it.. ⬇️
+
+**My first recursive function in real life ??**
+```
+const generateMarks = (min, max) => {
+  if (max === min) {
+    return [{ value: min }];
+  }
+  const marks = generateMarks(min, max - 1);
+  marks.push({ value: max });
+  return marks;
+};
+```
+
+**A time formatting function for Slider.js**
+```
+const displayFormat= value => {
+  let numberOfHours = Math.floor(value);
+  let numberOfMinutes = (value - numberOfHours) * 60;
+
+  const plural = number => (number > 1 ? 's' : '');
+  const hours = numberOfHours
+    ? `${numberOfHours} hr${plural(numberOfHours)}`
+    : '';
+  const minutes = numberOfMinutes
+    ? `${numberOfMinutes} min${plural(numberOfMinutes)}`
+    : '';
+
+  return `${hours} ${minutes}`;
+};
+```
+
+Lastly, a couple links from the day..
+- [css - What is the difference between display: inline and display: inline-block? - Stack Overflow](https://stackoverflow.com/questions/8969381/what-is-the-difference-between-display-inline-and-display-inline-block/14033814)
+- [How to Center in CSS](http://howtocenterincss.com/)
+
+Ciao!
+
+
 ### Day 54
 **Tuesday, December 10, 2019**
 
