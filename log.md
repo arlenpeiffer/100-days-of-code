@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 56
+**Thursday, December 12, 2019**
+
+Another big day today. Spent pretty much the entire day working on things and kinda seems like I did a lot.
+
+Spent the first couple hours of the day throwing together a `Printout` component to collect Callie's journal data for Dr. Gupta. Think it turned out alright.
+
+After that worked on the `Slider` component and tried to make some decisions about it. By the middle of the afternoon had that looking and feeling pretty good, and started trying to throw together a `Switch` component for the "travel" `EntrySection`. That's the last part of the `EntryForm` left, and unfortuantely it's turning into another hurdle. I'm not yet able to figure out how to go about updating the `travel.location` value (I'd like it to switch from 'Home' to an empty string) based on the value of `travel.isTraveling`. I was able to get the Formik values updated behind the scenes but for some reason the `Input` is not reflecting those changes. Aw here it goes.
+
+Stepped away from that issue after a while and started refactoring and breaking the Formik validation schemas out into their own files. Realizing what an insanely large project this is, and starting to feel like maybe I should take a step back and just focus on the personal site and resume for the remainder of the year, as I'm skeptical that I'll honestly be ready to commit all of these changes to `master` any time soon.
+
+Gonna sleep on it. See ya tomorrow.
+
+
 ### Day 55
 **Wednesday, December 11, 2019**
 
