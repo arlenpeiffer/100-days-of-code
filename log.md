@@ -1,5 +1,31 @@
 # 100 Days Of Code - Log
 
+### Day 57
+**Friday, December 13, 2019**
+
+I completed the custom Material-UI components finally!!! `EntryForm` is now completely overhauled with nicer looking UI! Still got plenty to take on but that feels like a big accomplishment. Pretty proud of how a lot of it turned out.
+
+Let's see, TIL that..
+- Radio inputs work best (only work?) with string values.. spent a while trying to pass a copule boolean values earlier womp womp
+- I can code! Had a long VSCode Live Share hang with my buddy Julian, trying to sort out an issue with one of the use cases for the `Input` component and was able to find a solution!! Was really proud of myself and my ability to explain and work through the problem with him, and am so pumped to have found a decent/working solution. Here's the part that made it all work..
+
+```
+useEffect(() => {
+  if (allowReset) {
+    setValue(resetValue);
+    setFieldValue(field.name, resetValue);
+    setFieldTouched(field.name, false);
+  }
+}, resetDependencies);
+```
+
+A couple links from the day to top it off..
+- [seek-oss/treat: Themeable, statically extracted CSS‑in‑JS with near‑zero runtime.](https://github.com/seek-oss/treat) - Julian mentioned this new alternative to styled-components
+- [React Training: When do I use functions in a Hooks Dependency Array?](https://reacttraining.com/blog/when-to-use-functions-in-hooks-dependency-array/)
+
+Ciao!
+
+
 ### Day 56
 **Thursday, December 12, 2019**
 
