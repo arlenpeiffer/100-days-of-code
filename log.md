@@ -1,5 +1,30 @@
 # 100 Days Of Code - Log
 
+### Day 58
+**Saturday, December 14, 2019**
+
+Fixed a bug created by the useEffect hook I added to `Input` yesterday. Realized it was wiping any starting values when editing an entry due to the effect running on mount. Extended the hook to use a ref to check for the mounted state. Here's the code I wrote:
+
+```
+const componentIsMounted = useRef(false);
+
+useEffect(() => {
+  if (componentIsMounted.current && allowReset) {
+    setValue(resetValue);
+    setFieldValue(field.name, resetValue);
+    setFieldTouched(field.name, false);
+  }
+  componentIsMounted.current = true;
+}, resetDependencies);
+```
+
+Thought about making it a custom hook that takes the side effect function and the dependencies array as arguments, but decided I'll wait until I have a few other components that need to run useEffect on update, but not on render, first.
+
+After that started playing around with swapping out the Ant Design components in `Filters` and ran into a wall trying to get the handling for disabled dates to work with the Material DatePicker. Keep chipping away at that tomorrow, but feeling mighty confused by it tonight.
+
+Ciao!
+
+
 ### Day 57
 **Friday, December 13, 2019**
 
