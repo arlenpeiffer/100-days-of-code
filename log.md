@@ -1,5 +1,33 @@
 # 100 Days Of Code - Log
 
+### Day 59
+**Sunday, December 15, 2019**
+
+Worked on the `Filters` compoment for an hour or so after work. Was able to figure out the disabled date handling (code below!) and started hooking the filter values up to Redux. Only issue I'm having rn is with the danged `Input` component which is updating behind the scenes but the display value remains set to its own internal value. Trying to figure out if the hook I wrote yesterday will be able to work with this use case or if I need to rewrite it to be more flexible. More on that tomorrow...
+
+Here's the code for the date disabling:
+```
+// startDate and endDate are being pulled from formik values.date //
+
+const handleDisableEndDates = (date, startDate) => {
+  if (!startDate) {
+    return false;
+  }
+  return date < startDate;
+};
+
+const handleDisableStartDates = (date, endDate) => {
+  if (!endDate) {
+    return false;
+  }
+  return date > endDate;
+};
+
+// shouldDisableDate={date => handleDisableEndDates(date, startDate)}
+// shouldDisableDate={date => handleDisableStartDates(date, endDate)}
+```
+
+
 ### Day 58
 **Saturday, December 14, 2019**
 
