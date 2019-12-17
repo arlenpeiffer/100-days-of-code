@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 60
+**Monday, December 16, 2019**
+
+Alright. Had a pretty productive day over here. It's late rn and I'm really tired so we'll see how much sense this entry will make. Figured out the issue I was having with the `Filters` component and got that all put together and working. After that started working on rewriting the old `Error` component (now named `Alert`) to get rid of Ant Design. Got that part almost all finished, and feeling like it's a pretty nice and reusable component.
+
+A couple reading links from the day..
+- [Getting to the bottom of line height in Figma](https://www.figma.com/blog/line-height-changes/)
+- [Tim Berners-Lee - Wikipedia](https://en.wikipedia.org/wiki/Tim_Berners-Lee)
+- [Typography is impossible - Medium Engineering](https://medium.engineering/typography-is-impossible-5872b0c7f891)
+- [wsmd/react-use-form-state: 📄 React hook for managing forms and inputs state](https://github.com/wsmd/react-use-form-state)
+
+
 ### Day 59
 **Sunday, December 15, 2019**
 
