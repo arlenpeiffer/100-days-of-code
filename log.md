@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 61
+**Tuesday, December 17, 2019**
+
+Worked all day on the journal stuff.. looks like I did 14 commits today which feels affirming.
+
+Made some pretty big progress on the `feature/removeAntDesign` branch. I think I've just got one component left before I can remove `antd` as a dependency!
+
+I feel like I spent a good amount of time today working on more UX sorts of stuff (like whether the `Login` form should submit when pressing Enter), which was important but felt kind of like the wrong thing to be focusing on. Had to tell myself a handful of times to stop focusing on the UX stuff so much and just get the current changes to production, even if the UX isn't perfect rn.
+
+Working on figuring out the `Popper` component now that asks for confirmation when removing an entry or item. Seeming complicated so far but found this library ([material-ui-popup-state](https://github.com/jcoreio/material-ui-popup-state)) that may help.. hoping I can figure it out without having to use another dependency tho.
+
+
 ### Day 60
 **Monday, December 16, 2019**
 
