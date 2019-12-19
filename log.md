@@ -1,5 +1,33 @@
 # 100 Days Of Code - Log
 
+### Day 62
+**Wednesday, December 18, 2019**
+
+Took a break from the journal project today and spent some time thinking on how to approach my resume. Decided it might be a cool idea to build a simple react app that will render a styled & responsive version of the resume data. Did some exploring for a while, hoping to find a simpler boilerplate than create-react-app, and came upon this thing [Skeleton: Responsive CSS Boilerplate](http://getskeleton.com/) which seemed kinda cool. Dug into that for a while and figured out how to set their simple boilerplate up with React/Babel/Webpack ([this article was helpful](https://dev.to/theenadayalan/how-to-set-up-react-js-from-scratch-without-using-create-react-app-37mk)) and eventually came upon a CSS framework attached to Skeleton called [Skelet. — a contemporary CSS framework & HTML boilerplate](https://selekkt.dk/skelet/).
+
+Still trying to figure out exactly what it is I'm looking for for this little project, but feel like I started to get somewhere after playing around for a while. Definitely know I want this project to be quick and simple, but would like the CSS and HTML markup to be smart. Also, started to wonder this evening if CSS Grid is something that might be helpful / could replace the need for Skeleton / Skelet. We'll see, hopefully there will be more time tomorrow to explore and make some decisions.
+
+Also listened to the new Syntax episode today (Episode #206) and took some notes on things I want to do more research on / jotted down some links to start/keep exploring.
+
+Terms/Concepts:
+- css atomic styles
+	- * [Let’s Define Exactly What Atomic CSS is | CSS-Tricks](https://css-tricks.com/lets-define-exactly-atomic-css/)
+- observables
+- data attributes
+	- [Using data attributes - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
+- pure functions
+- css specificity
+	- [Specifics on CSS Specificity | CSS-Tricks](https://css-tricks.com/specifics-on-css-specificity/)
+
+Links:
+- [Lynn Fisher - lynnandtonic.com](https://lynnandtonic.com/)
+- [A Single Div](https://a.singlediv.com/)
+- [Airport Codes](https://airportcod.es/)
+- [WhyAZ](https://why.az/)
+- [Single Div Drawings with CSS - Mozilla Hacks - the Web developer blog](https://hacks.mozilla.org/2014/09/single-div-drawings-with-css/)
+- [CSSDay Talk: Illustration with CSS - lynnandtonic.com](https://lynnandtonic.com/thoughts/entries/talk-illustration-with-css/)
+
+
 ### Day 61
 **Tuesday, December 17, 2019**
 
