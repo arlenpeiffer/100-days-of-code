@@ -1,5 +1,20 @@
 # 100 Days Of Code - Log
 
+### Day 63
+**Thursday, December 19, 2019**
+
+Continued with the resume project today. Figured out the right way to import css files (`import './css/skelet.css';` in `index.js`) after trying for a while to add them via a link tag in the head of `index.html`. Not 100% sure why that way wasn't working but the React way seems cleaner.
+
+Spent most of the night struggling to get CSS to do what I wanted.. realized I've got a lot still to learn on that front.
+
+By the end of the night was able to get:
+- font sizes to be responsive based on window size
+- font sizes to become static at a 600px breakpoint
+- the "references" section to render in Skelet's little grid system
+
+Still got a ways to go but happy to be starting on the resume. Ciao!
+
+
 ### Day 62
 **Wednesday, December 18, 2019**
 
