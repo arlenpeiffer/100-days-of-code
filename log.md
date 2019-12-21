@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 64
+**Friday, December 20, 2019**
+
+Worked tonight for a few hours on the new resume project and made some progress on figuring out how to customize the `skelet.css` file. Was able to set up more fitting `h1` - `h6` sizes/weights/spacing and as well a responsive size (and static breakpoint size) for `p` tags. Would still maybe like to move the parts of `skelet.css` that I'm using to a seperate  file just to make things a little cleaner and easier to read but that's all yet to come.
+
+Also, started watching the Wes Bos CSS Grid videos in hopes of gaining a little better understanding of how grid works. Pretty sure Skelet is using it behind the scenes but I'd kind of like to set up my own grid styles to gain a better understanding of how CSS Grid works without Skelet's abstraction.
+
+More to come on all of that tomorrow. Til then!
+
+
 ### Day 63
 **Thursday, December 19, 2019**
 
