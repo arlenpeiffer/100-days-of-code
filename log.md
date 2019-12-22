@@ -1,5 +1,54 @@
 # 100 Days Of Code - Log
 
+### Day 65
+**Saturday, December 21, 2019**
+
+Made it about halfway, or a little more, in the Wes Bos CSS Grid course. Starting to pick up some of the core concepts for sure.
+
+Here are a few notes I took while working through the videos..
+
+**implicit vs explicit**
+
+- `grid-template-columns: 200px 200px;` ➡️ creates two explicitly defined columns. if you have more than 2 grid items, CSS Grid will start implicitly creating new rows to place the items in.
+
+- to define the size of implicitly created rows we can use `grid-auto-rows: 200px;`
+
+**auto-flow**
+
+- `grid-auto-flow: row;` ➡️ adds implicit row(s) for extra grid items when explicit grid is full. it's the default setting.
+
+- `grid-auto-flow: column;` ➡️ adds implicit column(s) for extra grid items when explicit grid is full.
+
+**sizing tracks**
+
+- `fr` = fractional unit ➡️ similar to flex grow.. 2fr will take up twice the amount of free space as 1fr.
+
+**repeat**
+
+- `grid-template-columns: repeat(4, 1fr);` ➡️ creates 4 columns with equal widths.
+
+- `grid-template-columns: repeat(2, 1fr 2fr);` ➡️ creates 4 columns with alternating widths of 1fr and 2fr.
+
+**sizing grid items**
+
+- `grid-column: span 2;` ➡️ grid item will span 2 columns.
+
+- `grid-row: span 2;` ➡️ grid item will span 2 rows.
+
+**placing grid items** 
+- `grid-column-start: 2;` ➡️ starts item at track value 2.
+
+- `grid-column-end: 5;` ➡️ grid item goes up until track value 5.
+
+- `grid-column: 2 / 5;` ➡️ shorthand syntax.. item starts at track value 2 and spans 3 columns to track value 5.
+
+- `grid-column: span 2 / 5;` ➡️ grid item will span 2 columns and end at track value 5 (so ends up starting at track value 3).
+
+- `grid-column: 1 / span 2;` ➡️ grid item starts at track value 1 and spans 2 columns.
+
+- `grid-column: 1 / -1` ➡️ grid item spans entire row.
+
+
 ### Day 64
 **Friday, December 20, 2019**
 
