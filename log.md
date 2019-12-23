@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 66
+**Sunday, December 22, 2019**
+
+Still struggling with CSS Grid and becoming increasingly defeated feeling tonight. Can't help but feel like I'm wasting my time fiddling with responsive CSS when I should honestly just be done with my little resume project by now.
+
+
 ### Day 65
 **Saturday, December 21, 2019**
 
