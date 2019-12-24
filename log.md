@@ -1,5 +1,21 @@
 # 100 Days Of Code - Log
 
+### Day 67
+**Monday, December 23, 2019**
+
+Feeling a little better/less defeated today. Was able to eventually realize that my issue from last night with CSS grid was just user error.. the thing I was trying to make work is literally not possible with grid. That was important to realize.
+
+Was able to take a step back and see that what I really needed was flexbox, which I had written off earlier thinking that grid was the only answer. I think it's going to be important for me going forward to be able to step back and catch myself when I'm falling into these narrow-minded, hyper-focused traps.
+
+My work time today was spent cleaning up the CSS for the resume project and continuing to build out the layout and data object. It's coming along.
+
+Also found this cool blog post with some nice color schemes..
+
+- [50 Best Website Color Schemes of 2020 | Design Shack](https://designshack.net/articles/trends/best-website-color-schemes/)
+
+Ciao!
+
+
 ### Day 66
 **Sunday, December 22, 2019**
 
