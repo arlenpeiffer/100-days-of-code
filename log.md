@@ -1,5 +1,79 @@
 # 100 Days Of Code - Log
 
+### Day 68
+**Tuesday, December 24, 2019**
+
+Worked on a few coding problems on leetcode today.. wanna try to get into the habit of doing that a little bit each day. Here are my answers for the problems I completed and a few improvements I learned about after submitting.
+
+leetcode / **Two Sum**
+
+```
+var twoSum = function(nums, target) {
+  let currentSum;
+  
+  for (i = 0; i < nums.length - 1; i++) {
+    for (j = i + 1; j < nums.length; j++) {
+      currentSum = nums[i] + nums[j];
+        if (currentSum === target) {
+          return [i, j];
+      }
+    }
+  }
+}
+
+// improved //
+var twoSum = function(nums, target) {
+  for (i = 0; i < nums.length; i++) {
+    for (j = i + 1; j < nums.length; j++) {
+      if (nums[j] === target - nums[i]) {
+        return [i, j];
+      }
+    }
+  }
+}
+```
+
+leetcode / **Reverse Integer**
+
+```
+var reverse = function(x) {
+  const reverseX = Math.abs(x).toString().split('').reverse().join('');
+  const output = x < 0 ? -Math.abs(reverseX) : reverseX;
+  if (output > 2147483647 || output < -2147483647) {
+    return 0;
+  }
+  return output;
+};
+
+// improved //
+const reverse = x => {
+  const limit = 2147483648;
+  const k = x < 0 ? -1 : 1;
+  const n = Number(String(Math.abs(x)).split('').reverse().join(''));
+  return n > limit ? 0 : n * k;
+};
+```
+
+leetcode / **Palindrome Number**
+
+```
+var isPalindrome = function(x) {
+  const rev = x.toString().split('').reverse().join('');
+  const answer = x.toString() === rev ? true : false
+  return answer;
+};
+
+// improved //
+var isPalindrome = function(x) {
+  return x === Number(x.toString().split("").reverse().join(""));
+};
+```
+
+Also a couple links..
+- [Algorithms in JavaScript: Hash Tables - JavaScript in Plain English - Medium](https://medium.com/javascript-in-plain-english/algorithm-in-javascript-hash-table-7b0464d2b81b)
+- [What is 32 bit signed integer? - Quora](https://www.quora.com/What-is-32-bit-signed-integer)
+
+
 ### Day 67
 **Monday, December 23, 2019**
 
