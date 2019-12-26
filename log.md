@@ -1,5 +1,41 @@
 # 100 Days Of Code - Log
 
+### Day 69
+**Wednesday, December 25, 2019**
+
+Spent at least an hour struggling with the Roman to Integer problem on leetcode. Here's where I was when I had to stop..
+
+```
+const numerals = {
+  'I': 1,
+  'V': 5,
+  'X': 10,
+  'L': 50,
+  'C': 100,
+  'D': 500,
+  'M': 1000
+};
+
+const arr = s.split('');
+
+const reducer = (accumulator, currentValue, currentIndex) => {
+  const currentValueIsIXorC = currentValue === ('I' || 'X' || 'C');
+  const nextValueExists = currentIndex + 1 < arr.length;
+  const valueIsNotI = arr[currentIndex + 1] !== 'I';
+  const nextValueExistsAndIsNotI = nextValueExists && valueIsNotI;
+
+  if (currentValueIsIXorC && valueIsNotI) {
+    console.log(currentIndex, accumulator, numerals[currentValue])
+    return accumulator - numerals[currentValue];
+  }
+  console.log(currentIndex, accumulator, numerals[currentValue])
+  return accumulator + numerals[currentValue];
+};
+
+return arr.reduce(reducer, 0);
+```
+
+
 ### Day 68
 **Tuesday, December 24, 2019**
 
