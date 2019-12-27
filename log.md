@@ -1,5 +1,55 @@
 # 100 Days Of Code - Log
 
+### Day 70
+**Thursday, December 26, 2019**
+
+Solved the leetcode problem from yesterday! Maybe not the most elegant of solutions, but am proud of myself for working through it and finding where my logic wasn't working. Here's my answer..
+
+leetcode / **Roman to Integer**
+
+```
+var romanToInt = function(s) {
+  const numerals = {
+    'I': 1,
+    'V': 5,
+    'X': 10,
+    'L': 50,
+    'C': 100,
+    'D': 500,
+    'M': 1000
+  };
+
+  const arr = s.split('');
+
+  const reducer = (accumulator, currentValue, currentIndex) => {
+    const nextValue = arr[currentIndex + 1];
+
+    const currentValueIsI = /I/.test(currentValue);
+    const nextValueIsVorX = /V|X/.test(nextValue);
+    const currentValueIsX = /X/.test(currentValue);
+    const nextValueIsLorC = /L|C/.test(nextValue);
+    const currentValueIsC = /C/.test(currentValue);
+    const nextValueIsDorM = /D|M/.test(nextValue);
+
+    const shouldReturn4or9 = currentValueIsI && nextValueIsVorX;
+    const shouldReturn40or90 = currentValueIsX && nextValueIsLorC;
+    const shouldReturn400or900 = currentValueIsC && nextValueIsDorM;
+
+    if (shouldReturn4or9 || shouldReturn40or90 || shouldReturn400or900) {
+      return accumulator - numerals[currentValue];       
+    }
+    return accumulator + numerals[currentValue];
+  };
+
+  return arr.reduce(reducer, 0);
+};
+```
+
+Also spent a little while working on the journal project and was finally able to figure out why the Popper component wasn't positioning itself correctly! Had to create a new component (Popup) that has the Popper component and a button inside of it, making it possible to use the button (via event.currentTarget) as Popper's anchorEl prop.
+
+Ok that's all for tonight. Ciao!
+
+
 ### Day 69
 **Wednesday, December 25, 2019**
 
