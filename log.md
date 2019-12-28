@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 71
+**Friday, December 27, 2019**
+
+Made some awesome progress on the journal project today!! Was able to get the `Popup` component I've been working on to a good place (only thing I'd still like to add is a little styled arrow pointing to the anchor element.. links below ⬇️) and make use of it in `Entry` and `FieldArray`. I think `Entry` is the last component still using anything from Ant Design so that means I can finally remove that package from the project!
+
+A couple links regarding the Popper arrowRef thing..
+
+- [material-ui/ScrollPlayground.js at c0a1ad8da125cb73f2c0c9ec950f8fed13dc0321 · mui-org/material-ui](https://github.com/mui-org/material-ui/blob/c0a1ad8da125cb73f2c0c9ec950f8fed13dc0321/docs/src/pages/components/popper/ScrollPlayground.js)
+- [reactjs - Example of using arrow in Popper component of material-ui - Stack Overflow](https://stackoverflow.com/questions/57500324/example-of-using-arrow-in-popper-component-of-material-ui)
+- [poppers-with-arrows - StackBlitz](https://stackblitz.com/edit/poppers-with-arrows)
+
+
 ### Day 70
 **Thursday, December 26, 2019**
 
