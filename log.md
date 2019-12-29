@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 72
+**Saturday, December 28, 2019**
+
+Made some more big progress on the journal tonight. Figured out the styles for the arrow thing in `Popup` (pretty much ended up just copy/pasting from the Material-UI docs `ScrollPlayground` file), got rid of 3 packages (`antd`, `customize-cra`, and `react-app-rewired`), did a little refactoring, and updated the styles in `Header`. All in all was about 9 commits over the course of the afternoon and evening. Excited to keep at it and hopefully be able to get these changes up to production soon!
+
+Ciao!
+
+
 ### Day 71
 **Friday, December 27, 2019**
 
