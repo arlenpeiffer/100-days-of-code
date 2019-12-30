@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 73
+**Sunday, December 29, 2019**
+
+Read Chapters 12 and 13 in *Clean Code* and started work on the `AddItem` component for the journal. Made some pretty good progress on the latter. It's mostly styled I think, and is able add items to a log (logs.supplements) when passed a callback function (addSupplement) as a prop. More to come on that tomorrow..
+
+- [java - Design Patterns: Factory vs Factory method vs Abstract Factory - Stack Overflow](https://stackoverflow.com/questions/13029261/design-patterns-factory-vs-factory-method-vs-abstract-factory)
+
+
 ### Day 72
 **Saturday, December 28, 2019**
 
