@@ -1,5 +1,51 @@
 # 100 Days Of Code - Log
 
+### Day 74
+**Monday, December 30, 2019**
+
+Worked on starting to rethink some of my redux actions / firebase calls and where the logic for checking whether or not an item already exists (whether or not to dispatch an action) happens. Wrote these helper functions that I'd like to refactor a bit tomorrow..
+
+```
+export const valueExists = (snapshot, inputValue) => {
+  const values = Object.values(snapshot.val());
+  const valueExists = values.some(
+    value => value.toLowerCase() === inputValue.toLowerCase().trim()
+  );
+  return valueExists;
+};
+
+export const setupAddToLogFunction = (input, logName, callbacks) => {
+  const { requestCallback, successCallback, failureCallback } = callbacks;
+
+  return (dispatch, getState) => {
+    const userId = getState().user.profile.id;
+    const pathToLog = firebase
+      .database()
+      .ref(`users/${userId}/logs/${logName}`);
+
+    dispatch(requestCallback());
+
+    pathToLog.once('value').then(snapshot => {
+      if (valueExists(snapshot, input)) {
+        return console.log('failure');
+        // dispatch(failureCallback('error message'));
+      } else {
+        return pathToLog.push(input).then(dispatch(successCallback(input)));
+      }
+    });
+  };
+};
+
+export const setupCallbacksObject = (request, success, failure) => ({
+  requestCallback: request,
+  successCallback: success,
+  failureCallback: failure
+});
+```
+
+Also learned a sweet VScode trick.. how to make simulatneous edits using multiple cursors 😱 Shortcut is: `Opt + Cmd + Down` or `Opt + Cmd + Up`.
+
+
 ### Day 73
 **Sunday, December 29, 2019**
 
