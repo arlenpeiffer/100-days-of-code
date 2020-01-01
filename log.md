@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 75
+**Tuesday, December 31, 2019**
+
+Didn't have a ton of time today but was able to find a couple half hour windows (before work and during my lunch break) to continue exploring the rethink/refactor of the redux actions/firebase calls for the journal logs. It's seeming like I'll be able to reuse the `valueExists` and `setupAddToLogFunction` utility functions to replace all of the `handleLog...` functions in `AddEntry` and `EditEntry` but am going to need to write another function that takes the entry or editedEntry as well as a a log to map over. More on that tomorrow.
+
+Ciao!
+
+
 ### Day 74
 **Monday, December 30, 2019**
 
