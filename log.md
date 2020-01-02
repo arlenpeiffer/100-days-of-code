@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 76
+**Wednesday, January 1, 2020**
+
+Coding really made me want to cry today 😢 Struggled through a few hours of debugging that taught me to stop forgetting the `return` keyword at the end of functions and that I don't need to use thunks in every action.
+
+Rough start to the new year coding-wise.. gonna get some rest and choose to believe I'll have more luck tomorrow. 
+
+Til then..
+
+
 ### Day 75
 **Tuesday, December 31, 2019**
 
