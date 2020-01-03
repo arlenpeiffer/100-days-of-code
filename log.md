@@ -1,5 +1,29 @@
 # 100 Days Of Code - Log
 
+### Day 77
+**Thursday, January 2, 2020**
+
+Finally got to spend a good chunk of time coding today.. first time in a couple few weeks. 😅
+
+Started the day by re-reading Dan Abramov's article from yesterday (https://overreacted.io/my-decade-in-review/) and exploring some of the links included throughout. Here are a couple things I saved to watch/read later..
+
+Talks:
+- [Bret Victor - Inventing on Principle on Vimeo](https://vimeo.com/36579366)
+- [(12) Dan Abramov - Live React: Hot Reloading with Time Travel at react-europe 2015 - YouTube](https://www.youtube.com/watch?v=xsSnOQynTHs)
+
+Links:
+- [React 16: A look inside a rewrite of our frontend UI library - Facebook Engineering](https://engineering.fb.com/web/react-16-a-look-inside-an-api-compatible-rewrite-of-our-frontend-ui-library/)
+
+Terms:
+- **dogfooding** — short for “Eating your own dog food,” which represents the practice of using your own products
+
+After that, was able to work on the journal for a most of the late morning/afternoon. Cleaned up a lot of the ideas I'd been playing around with over the last handful of days regarding the async actions/thunks/firebase calls and started getting things set up to add new logs for diets, ingredients, meals (renamed from food), medications, and moods. Next step is setting up types/action creators/actions for the new logs and to update the logs reducer to handle all of the new action types.
+
+Excited to keep at it.. hopefully some more progress on everything tomorrow.
+
+Til then! 👋
+
+
 ### Day 76
 **Wednesday, January 1, 2020**
 
