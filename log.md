@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 78
+**Friday, January 3, 2020**
+
+Made a little progress on the journal app today. Was able to refactor/add some more thoughtful names, update the log types, actions, and reducer to account for all of the new logs being added, and set up `AddItem` to submit its value when pressing `Enter` (hopefully that functionality will be able to be used in places like the `Login` and `SignUp` pages as well).
+
+Also, a couple cool tidbits I learned..
+- you can use block-scoped variables in a switch case if you wrap the case in brackets
+- there's an html element called `optgroup` that can be used to group options in a select
+
+
 ### Day 77
 **Thursday, January 2, 2020**
 
