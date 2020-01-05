@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 79
+**Saturday, January 4, 2020**
+
+Spent a few hours this morning trying to figure out how to make the `AddItem` component play nice with `Select`. Right now, typing in the input of `AddItem` when it's a child of `Select` will move the focus from `AddItem`'s input to one of `Select`'s options if the option starts with the letter typed. Unfortunately not the desired functionality for this use case.. Had to head to work before I was able to find a solution but definitely learned a good deal about JS events! Also found out about the Event Listener Breakpoints part of Chrome (located under the Sources tab at the very bottom). Pretty handy in being able to call debugger when a selected type of event is heard.
+
+Also started to re-read my notes from where I left off with the freeCodeCamp JavaScript Algorithms and Data Strucutres Certificate. Feeling like I'd like to put some time and energy back into that.. I'd love to at least be finished with all of the remaining lessons and started on the projects by the time I reach the end of #100DaysOfCode.
+
+Til next time 👋
+
+
 ### Day 78
 **Friday, January 3, 2020**
 
