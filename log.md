@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 80
+**Sunday, January 5, 2020**
+
+Started chipping away at the freeCodeCamp stuff again today.. made it through 6 of the little lessons in the Object Oriented Programming section. Learned about the `isPrototypeOf()` method, prototype chains, supertypes and subtypes, inheritance, and `Object.create()`. Feels good digging back into that kind of learning (as opposed to learning via grappling with the journal project).
+
+Also set a goal today to complete a problem on leetcode each day this week. Tried to jump back in on the Longest Common Prefix problem I had been working on last week (or earlier this week, I forget) and got stumped again so decided to move on to the next 'Easy' one on the list, Merge Two Sorted Lists. Struggled for a while trying to figure out (ie. essentially make up) how linked lists work and then realized I needed help. Took to youtube for some tutoring and found a video that explained the problem in Java (https://www.youtube.com/watch?v=K63Mjf-H0B0). Really helped in gaining an understanding of how to work with ListNodes, etc and was able to transfer what I learned to an answer in JavaScript.
+
+Links from the day:
+- [Object.prototype.isPrototypeOf() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/isPrototypeOf)
+- [instanceof - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)
+- [JavaScript isPrototypeOf vs instanceof usage - Stack Overflow](https://stackoverflow.com/questions/18343545/javascript-isprototypeof-vs-instanceof-usage/18343849)
+- [Inheritance and the prototype chain - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+
+
 ### Day 79
 **Saturday, January 4, 2020**
 
