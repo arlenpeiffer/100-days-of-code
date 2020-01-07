@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 81
+**Monday, January 6, 2020**
+
+Had a great day today! Was able to post up at a cafe in Santa Monica for most of the day and feel like I did some solid work. Things did start off a little rocky though.. spent 2-3 hours working on a leetcode problem (Add Two Numbers) that involved  linked lists. Thought this would be a good one to help solidify what I learned yesterday about list nodes and linked lists but instead it just threw me for a big loop.. After 18 failed submissions I finally got a working answer. Spent a little time after that going over my answer and trying to consider things I could improve upon next time around.
+
+After all that, took another stab at solving the focus/keyboard control issue with `AddItem` and was able to find a solution! Learned that both `addEventListener` and `removeEventListener` take an option called `capture` that essentially allows the given event listener to become #1 priority. Was able to use this to call `stopPropagation()` on any 'keydown' events on the document when the `AddItem` input is focused, and then put things back to normal on blur.
+
+Also set up some conditional padding/margins for `AddItem` when used inside of `Select`.. looking pretty good 😉
+
+Excited to keep at it tomorrow.. til then!
+
+
 ### Day 80
 **Sunday, January 5, 2020**
 
