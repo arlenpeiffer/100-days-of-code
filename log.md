@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 82
+**Tuesday, January 7, 2020**
+
+Alright, one week into the new year. Feeling kinda stressed about the start-sending-out-applications-by-the-end-of-January deadline I've set for myself. Definitely seems like a lot to get done in three more weeks, but I can do this!
+
+This morning I worked a bit more on cleaning up/refactoring some stuff from yesterday. Thought I had something really nice figured out for the `Select` component in journal but realized after committing all of the new changes that they don't actually take into account the use case where `MenuItem`s are passed as children to `Select`. Gonna have to take another crack at that tomorrow and make the component more flexible.
+
+Til then!
+
+
 ### Day 81
 **Monday, January 6, 2020**
 
