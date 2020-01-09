@@ -1,5 +1,11 @@
 # 100 Days Of Code - Log
 
+### Day 83
+**Wednesday, January 8, 2020**
+
+Tried at a problem on leetcode this morning (Valid Parenthesis). Was def over my head. 😅 Spent the rest of the day working on the journal project.. feeling kind of defeated and like I don't have much to show for how much time I put in today.
+
+
 ### Day 82
 **Tuesday, January 7, 2020**
 
