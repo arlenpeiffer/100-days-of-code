@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 84
+**Thursday, January 9, 2020**
+
+Had a really great hang with Dylan this morning! Talked a lot about the challenges of getting ready to apply and he was able to offer some really good advice and words of comfort. Made me feel lots better about where I'm at.
+
+He was also a major homie and sat with me for 2 hours working on my resume. Feeling way better about how that's looking. Now just trying to refine the code and styles. Hopefully have that up soon as the new [arlenpeiffer.io](https://arlenpeiffer.io)!
+
+Ciao!
+
+
 ### Day 83
 **Wednesday, January 8, 2020**
 
