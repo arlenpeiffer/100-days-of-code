@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 85
+**Friday, January 10, 2020**
+
+Finished a chapter in *Clean Code* (the one on Concurrency) and worked a little more on my resume. Spent the afternoon looking at some different options for setting up a "Dark Mode" switch for the top corner of the resume. Thought that might be a nice little extra credit thing.
+
+Considered using the `ThemeProvider` wrapper component from `emotion-themed` but it honestly seemed like a little overkill for what I'm trying to do. Ideally I'd just like to change the background and color styles on `document.body` and call it a day. Read someone's idea of setting a className for the body depending on the theme, and decided to give that a try. Created a hook that keeps track of `isDarkMode` in state and sets `document.body.className` to either 'dark' or 'light' depending on if `isDarkMode` is true or false. Returned a `handleClick` method from the custom hook and set up a temporary 'dark mode' button in `Resume.js` that calls the method onClick. Seems to be working pretty well 🙃
+
+Ended today by exploring some color suggestions from Material.. https://material.io/design/color/dark-theme.html#
+
+Excited to keep at it! Ciao!
+
+
 ### Day 84
 **Thursday, January 9, 2020**
 
