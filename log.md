@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 86
+**Saturday, January 11, 2020**
+
+Worked today on exploring a few more options for managing the CSS for my resume site. Spent probaby an hour or two struggling to add `node-sass` to the project and set up the webpack loaders, etc. Turns out that whole thing is truly as annoying as everyone has made it seem.
+
+After becoming annoyed with not being able to get `node-sass` working in that context, I decided to maybe try starting a new Gatsby project and adding `node-sass` to that, since they had docs that made it look really simple and since I've been wanting to play with Gatsby more.
+
+Turns out it was not as easy as their docs made it seem but I did eventually get it working and learned a few things about the `gatsby-starter-default` along the way. Was able to remove a handful of unnecessary packages from the `package.json` and start moving the JSX and styles over from the previous version of the resume (now known as `resume-draft`).
+
+Still not quite sure if Sass/SCSS is the best route/path I want to take, but hopefully I can explore a few more things tomorrow and will be able to make a decision.
+
+Ciao!
+
+
 ### Day 85
 **Friday, January 10, 2020**
 
