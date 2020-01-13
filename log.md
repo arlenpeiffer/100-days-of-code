@@ -1,5 +1,39 @@
 # 100 Days Of Code - Log
 
+### Day 87
+**Sunday, January 12, 2020**
+
+Made it halfway through the Functional Programming section on freeCodeCamp today! Went over some core principles of functional programming (don't change things/mutate data, always declare your dependencies explicitly) and got to write my own version of `.map()` and `.filter()` which was pretty cool. I'll post my code for those below to have a record of it.
+
+Other than that did some more reading on my break at work about options for setting up global styles (Sass/SCSS vs. Emotion vs. Gatsby layout component). Trying to decide on the best way to approach setting up all of the CSS stuff for my resume project.
+
+**Writing my own .map**
+
+```
+Array.prototype.myMap = function(callback){
+  var newArray = [];
+  for (let i = 0; i < this.length; i++) {
+    newArray.push(callback(this[i]))
+  }
+  return newArray;
+};
+```
+
+**Writing my own .filter**
+
+```
+Array.prototype.myFilter = function(callback){
+  var newArray = [];
+  for (let i = 0; i < this.length; i++) {
+    if (callback(this[i]) === true) {
+      newArray.push(this[i]);
+    }
+  }
+  return newArray;
+};
+```
+
+
 ### Day 86
 **Saturday, January 11, 2020**
 
