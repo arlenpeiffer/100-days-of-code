@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 88
+**Monday, January 13, 2020**
+
+Okay, I gotta go to bed.. it's so late 😅 Been playing around with emotion and trying to get the hang of using ems instead of rems or pixels. They definitely seem much slipperier so far but maybe there will be some worthwhile benefits to using them once I can get a grasp on how they work.
+
+Links:
+- [Introducing the CSS Cascade - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade)
+- [Specificity - CSS: Cascading Style Sheets | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity)
+- [Normalize CSS or CSS Reset?! - Elad Shechter - Medium](https://medium.com/@elad/normalize-css-or-css-reset-9d75175c5d1e)
+- [Confused About REM and EM? | Jeremy Church](https://j.eremy.net/confused-about-rem-and-em/)
+
+
 ### Day 87
 **Sunday, January 12, 2020**
 
