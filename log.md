@@ -1,5 +1,20 @@
 # 100 Days Of Code - Log
 
+### Day 89
+**Tuesday, January 14, 2020**
+
+Worked today on understanding ems a little better and setting up a responsive solution for my resume site. Ended up using Emotion's `facepaint` library which made setting up breakpoints super simple. Took a second to get the hang of it but once I did it was super quick and easy.
+
+Feel like I'm starting to get a better feel for what I like/don't like in all of the CSS-in-JS libraries vs. Sass vs. regular ol' CSS. Felt a bit of a breakthrough on that front today.
+
+Hopefully with any luck I'll be able to wrap up this first round of changes to the resume tomorrow after work. 🤞
+
+Links:
+- [emotion-js/facepaint: Responsive style values for css-in-js.](https://github.com/emotion-js/facepaint)
+- [Type Scale - A Visual Calculator](https://type-scale.com/)
+- [Test your website at different screen resolutions: Multi Screen Test](http://whatismyscreenresolution.net/multi-screen-test)
+
+
 ### Day 88
 **Monday, January 13, 2020**
 
