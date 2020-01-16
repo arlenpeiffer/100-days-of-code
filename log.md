@@ -1,5 +1,16 @@
 # 100 Days Of Code - Log
 
+### Day 90
+**Wednesday, January 15, 2020**
+
+I think I'm all done with the styles for the resume! Spent the afternoon working through rewriting the styles using basic type selectors inside of an ID selector for each section. Also wrote a hook to be able to use the `facepaint` screen size media query in multiple files.
+
+Learned about a few new CSS psuedo classes today..
+- **:last-of-type()** — matches the last occurrence of a specified element
+- **:nth-child()** — matches elements based on their position in a group of siblings
+- **:nth-of-type** — matches elements of a given type, based on their position among a group of siblings
+
+
 ### Day 89
 **Tuesday, January 14, 2020**
 
