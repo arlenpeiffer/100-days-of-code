@@ -1,5 +1,24 @@
 # 100 Days Of Code - Log
 
+### Day 91
+**Thursday, January 16, 2020**
+
+Finished the Functional Programming section on freeCodeCamp! The lessons today served as a good review of a lot of the built in string and array methods (`contact`, `reduce`, `sort`, `split`, `join`, `every`, and `some`). Next section is all coding challenges.. excited to try and tackle those having learned the lesson that sometimes looking at the answer after struggling for a while is more beneficial and educational than trying to "figure it out" on my own.
+
+Also spent some time on the resume, think it's looking pretty good!
+
+Terms:
+- **arity** — the number of arguments a function requires
+- **currying** — converting a function of arity n into n functions of arity 1
+	- ie. restructuring a function so it takes one argument and returns another function that takes the next argument, and so on and so forth..
+- **partial application** — applying a few arguments to a function at a time and returning another function that is applied to more arguments
+	- ie. supplying fewer than the total number of arguments
+
+
+Links:
+- [Color Tool - Material Design](https://material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=6a3fce)
+
+
 ### Day 90
 **Wednesday, January 15, 2020**
 
