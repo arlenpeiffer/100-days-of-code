@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 92
+**Friday, January 17, 2020**
+
+Worked a little more on the resume this afternoon.. mostly just trying to clean up some CSS and figure out what of the default Gatsby stuff I can clean up/get rid of. Removed a couple packages (`gatsby-plugin-sharp` and `gatsby-transformer-sharp`) that seem to have to do with resizing images. Now just have to figure out the config/manifest/metadata stuff..
+
+Hopefully I can tackle all that in the morning and get this thing up and ready for critique/feedback 🙃
+
+See ya then.
+
+
 ### Day 91
 **Thursday, January 16, 2020**
 
