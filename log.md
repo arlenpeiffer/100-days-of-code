@@ -1,5 +1,17 @@
 # 100 Days Of Code - Log
 
+### Day 93
+**Saturday, January 18, 2020**
+
+Dang. Thought I was all done with the resume but ran into an issue when running `gatsby build`. I guess changing the className on `document.body` doesn't work with Gatsby because `document` isn't avaialbe with server side rendering. Gonna look into it more tomorrow but fingers crossed I can get it all figured out and have everything up and running before work.
+
+Also did some reading about package.json and manifest files today. Here're a couple links..
+- [The Basics of Package.json in Node.js and npm - NodeSource](https://nodesource.com/blog/the-basics-of-package-json-in-node-js-and-npm/)
+- [The Web App Manifest  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/web-app-manifest/)
+
+Ciao!
+
+
 ### Day 92
 **Friday, January 17, 2020**
 
