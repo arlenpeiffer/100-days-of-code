@@ -1,5 +1,13 @@
 # 100 Days Of Code - Log
 
+### Day 94
+**Sunday, January 19, 2020**
+
+Finished the resume and got it up and running at [arlenpeiffer.io](https://arlenpeiffer.io/)!! So excited to finally have it up.
+
+Wanna make a few tweaks tomorrow (suggestions/first round of critique from the homies) and send it out to some more folks for feedback. Excited to hear what everyone thinks!
+
+
 ### Day 93
 **Saturday, January 18, 2020**
 
