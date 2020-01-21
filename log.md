@@ -1,5 +1,19 @@
 # 100 Days Of Code - Log
 
+### Day 95
+**Monday, January 20, 2020**
+
+Started today listening to the new Sytanx episode which was talking about the stack used to make [uses.tech](https://uses.tech/) which included Gatsby. Was awesome to hear & see (dug through [the repo](https://github.com/wesbos/awesome-uses) a bit..) how someone else set up a simple Gatsby site, and definitely gave me some ideas for things to try next time.
+
+Also made a couple edits to the resume based off everyone's feedback. Changed some of the breakpoints/font sizes so it looks better on mobile. I think the mobile lesson from today is: don't go any smaller than font-size: 16px on the phone.
+
+Other than that just did some cleaning up.. tried to close some tabs, read/re-read some articles I had open, bookmarked a few things, etc.
+
+Links:
+- [How to connect to localhost from an iPhone (2019)](https://zeph.co/iphone-localhost-mac) — could not get my phone to connect to localhost hard as i tried
+- [MageTools // DevTools Alternative](https://mage.tools/)
+
+
 ### Day 94
 **Sunday, January 19, 2020**
 
