@@ -1,5 +1,72 @@
 # 100 Days Of Code - Log
 
+### Day 96
+**Tuesday, January 21, 2020**
+
+Started looking at jobs today! Like seriously for the first time. That felt cool. I think I'm so much closer to being ready to apply than I thought.
+
+Also did some reading (links below), some responding to Dan Abramov's Just JavaScript emails, and some working through Intermediate Algorithm Scripting challenges on freeCodeCamp (answers below).
+
+**Diff Two Arrays**
+
+```
+function diffArray(arr1, arr2) {
+  const allItems = [...arr1, ...arr2];
+  const newArr = [];
+
+  allItems.map(i => {
+    const itemAmount = allItems.filter(j => j === i).length;
+    itemAmount === 1 && newArr.push(i);
+    });
+    
+  return newArr;
+}
+```
+
+**Seek and Destroy**
+
+```
+function destroyer(arr, ...rest) {
+  rest.map(i => {
+    arr = arr.filter(j => j !== i)
+  })
+  return arr;
+}
+```
+
+**Pig Latin**
+
+```
+function translatePigLatin(str) {
+  const vowels = /a|e|i|o|u/;
+  const firstVowel = str.search(vowels);
+  const consonantChunk = str.substring(0, firstVowel);
+  const firstVowelToEnd = str.substring(firstVowel);
+  const suffix = firstVowel ? 'ay' : 'way';
+  const strPigLatin = firstVowelToEnd + consonantChunk + suffix;
+  return strPigLatin;
+}
+```
+
+**Search and Replace**
+
+```
+function myReplace(str, before, after) {
+  const beforeIsCapitalized = before.search(/[A-Z]/) === 0;
+  const capitalizedAfter = after.replace(after[0], after[0].toUpperCase());
+  const preservedAfter = beforeIsCapitalized ? capitalizedAfter : after;
+  return str.replace(before, preservedAfter);
+}
+```
+
+**Links:**
+- [The CSS Cascade](https://wattenberger.com/blog/css-cascade)
+- [The history of “typeof null”](https://2ality.com/2013/10/typeof-null.html?ck_subscriber_id=686570632)
+- [Strict mode - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)
+- [Nobody hits the ground running - Signal v. Noise](https://m.signalvnoise.com/nobody-hits-the-ground-running/)
+- [Hire managers of one – Signal v. Noise](https://signalvnoise.com/posts/1430-hire-managers-of-one)
+
+
 ### Day 95
 **Monday, January 20, 2020**
 
