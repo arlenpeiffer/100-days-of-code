@@ -1,5 +1,15 @@
 # 100 Days Of Code - Log
 
+### Day 97
+**Wednesday, January 22, 2020**
+
+Did some reading up on FOUT and FOIT after Julian brought to my attention that [arlenpeiffer.io](https://arlenpeiffer.io) is doing a little flash of unstyled text while Inter is being loaded. Something to look at..
+
+Besides that made a list of dream companies to work for and started learning Figma / putting together a PDF version of my resume. Not really coding stuff if we're being honest but it's all related.
+
+Ciao!
+
+
 ### Day 96
 **Tuesday, January 21, 2020**
 
