@@ -1,5 +1,79 @@
 # 100 Days Of Code - Log
 
+### Day 98
+**Thursday, January 23, 2020**
+
+Worked on a few challenges on freeCodeCamp, read some articles, closed some tabs, and started putting together a list of job boards to keep checking in with.
+
+Also, listened most of the way through the new episode of Syntax (#216: Tech To Watch In 2020) and took some notes on things to look up/read more about..
+
+- sanity.io
+- php ➡️ node ➡️ deno
+- hover / cloudflare (hosting)
+- gridsome
+- sapper
+- eleventy
+
+Answers to my freeCodeCamp problems below..
+
+**DNA Pairing**
+
+```
+function pairElement(str) {
+  const getBasePair = character => {
+    switch(character) {
+      case 'A':
+        return ['A', 'T'];
+      case 'T':
+        return ['T', 'A'];
+      case 'C':
+        return ['C', 'G'];
+      case 'G':
+        return ['G', 'C'];
+      default:
+        return;
+    }
+  }
+
+  const pairs = [];
+  const providedChars = str.split('');
+  return pairs.concat(providedChars.map(char => getBasePair(char)));
+}
+```
+
+
+a nicer (?) way without the switch statement..
+
+```
+function pairElement(str) {
+  var pairs = {
+    A: "T",
+    T: "A",
+    C: "G",
+    G: "C"
+  };
+  var arr = str.split("");
+  return arr.map(x => [x, pairs[x]]);
+}
+```
+
+**Sorted Union**
+
+```
+function uniteUnique() {
+  const result = [];
+  for (const arr of arguments) {
+    arr.map(num => {
+      if (!result.includes(num)) {
+        result.push(num);
+      }
+    })
+  }
+  return result;
+}
+```
+
+
 ### Day 97
 **Wednesday, January 22, 2020**
 
