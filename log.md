@@ -1,5 +1,18 @@
 # 100 Days Of Code - Log
 
+### Day 99
+**Friday, January 24, 2020**
+
+Mostly just worked more on learning the basics of Figma and continued with making the PDF/print version of my resume. Think I'm pretty close to being done with it!
+
+Also a couple articles from the day..
+
+- [Server Side Rendering pros and cons. When to use it and when to choose something else - DEV Community 👩‍💻👨‍💻](https://dev.to/stereobooster/server-side-rendering-or-ssr-what-is-it-for-and-when-to-use-it-2cpg)
+- [Gatsby vs Next.JS - What, Why and When? - DEV Community 👩‍💻👨‍💻](https://dev.to/jameesy/gatsby-vs-next-js-what-why-and-when-4al5)
+
+Ciao!
+
+
 ### Day 98
 **Thursday, January 23, 2020**
 
