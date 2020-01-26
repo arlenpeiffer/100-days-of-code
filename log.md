@@ -1,5 +1,50 @@
 # 100 Days Of Code - Log
 
+### Day 100 🏆🏁🥳
+
+Holy moly. That's a wrap. That's insane that I just did that. Feels kinda crazy all of a sudden..
+
+Just spent some time reflecting on the whole proecess and made a list of some accomplishments, a few things I came away with, and a handful of the memorable new technologies and concepts I explored over the last 100 days.
+
+**Accomplishments**
+
+- finished Andrew Mead course (finally)
+- made my first mobile app
+- finished my resume
+- interviewed with 8th light (round 2)
+- completed most of the freeCodeCamp JavaScript Algorithms and Data Structures Certification
+- got a laptop stand / wireless keyboard + mouse to help save my neck and improve my posture
+- bought a personal domain ([arlenpeiffer.io](https://arlenpeiffer.io))
+- contributed to the state of js survey
+- set up my first project without create-react-app (i think this is true)
+- made my first site with gatsby
+
+**Takeaways**
+
+- working super insanely hard is important but so is balance.. if i had to do this again i would definitely relax my approach a bit and make more space for exercise / doing things other than coding
+- i should write tests
+- sometimes looking at the answer to a coding challenge is more helpful than spending 4 hours struggling
+
+**New Technologies / Concepts Explored**
+
+- react-native
+- expo
+- react-navigation
+- styled-components
+- absolute pathnames (babel-plugin-module-resolver)
+- netlify
+- recursion
+- material-ui
+- react-hook-form
+- css grid
+- emotion
+- gatsby
+
+Umm I guess that's it.. the job search begins now. And seeing if I can maintain using Twitter without having this to post about every day. Fingers crossed on both of 'em.
+
+Ciao!
+
+
 ### Day 99
 **Friday, January 24, 2020**
 
